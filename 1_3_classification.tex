@@ -5,20 +5,33 @@ Differential equations can be classified according to various criteria. Besides 
 
 \textbf{Linearity}\\
 An \emph{n-th} order ODE is \emph{linear}, if it is of the form:
-\begin{equation*}
+\begin{equation}
   a_n(x) \cdot y^{(n)} + ... + a_1(x) \cdot y' + a_0(x) \cdot y = g(x)
-\end{equation*}
-where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions.\\
+\end{equation}
+where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions. Or in other words: A differential equation is linear if the dependant variable and all of its derivatives appear in a linear fashion (i.e., they are not multiplied together or squared for example or they are not part of transcendental functions such as sins, cosines, exponentials, etc.)\\\\
 
 \textbf{Homogenity}\\
-A lienar ODE is \emph{homogeneous}, if $g(x) = 0$ for al $x$; otherwise the ODE is \emph{inhomogeneous}, and $g(x)$ is the \emph{inhomogeneity} or \emph{source} term.\\
+A lienar ODE is \emph{homogeneous}, if $g(x) = 0$ for all $x$; otherwise the ODE is \emph{inhomogeneous}, and $g(x)$ is the \emph{inhomogeneity} or \emph{source} term.\\
 
 \textbf{Constant coefficient}\\
-A linear ODE has constant coefficients, if it is of the form
-\begin{equation*}
+A linear ODE has \emph{constant coefficients}, if it is of the form
+\begin{equation}
   a_n \cdot y^{(n)} + ... + a_1 \cdot y'+ a_0 \cdot y = g(x),
-\end{equation*}
-with $a_n \neq 0$.\\
+\end{equation}
+with $a_n \neq 0$ (the source term $g(x)$ does not have to be constant).\\
+
+\textbf{Separability}\\
+The ODE is \emph{separable}, if $F(x, y)$ can be written as a product of a $x$- and $y$-dependent term, i.e. if the ODE is of the form
+\begin{equation}
+  y' = g(x) \cdot h(y)
+\end{equation}
+
+\textbf{Autonomity}\\
+The ODE (1.28) is \emph{autonomous}, if $F(x, y)$ only depends on $y$, i.e. if the ODE is of the form
+\begin{equation}
+  y' = h(y)
+\end{equation}
+Every autonomous ODE is separable with $g(x) = 1$.\\
 
 \textbf{Examples}\\
 \begin{tabular}{ll}
@@ -31,5 +44,3 @@ with $a_n \neq 0$.\\
   & source term $sin(\omega t)$\\
   $i''+ \frac{R}{L}i' + \frac{1}{LC}i = 0$ & Homogeneous linear ODE for $i(t)$
 \end{tabular}
-
-\textbf{Separability}\\

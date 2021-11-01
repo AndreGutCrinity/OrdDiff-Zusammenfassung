@@ -1,0 +1,52 @@
+\section{Systems of differential equations}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDickeDick}
+If several systems are coupled with each other and mutually influence each other, one often obtains a system of ODE’s.\\
+A \emph{system of differential equations} of first oder is a system
+\begin{equation}
+  \begin{matrix}
+    y'_1 & = & f_1(x, y_1,...,y_n)\\
+    \vdots & & \vdots \;\;\;\;\; \; \; \; \; \; \; \; \; \; \; \; \; \; \\
+    y'_n & = & f_n(x, y_1,...,y_n)
+\end{matrix}
+\end{equation}
+of ODE’s for unknown functions $y_1(x), ... , y_n(x)$.\\
+Using the vectorial notation
+\begin{equation}
+  \mathbf{y}' = \mathbf{f}(x, \mathbf{y})
+\end{equation}
+
+An ODE of \emph{n}-th order is equivalent to a system of first-order ODE's.
+\begin{equation}
+  \begin{matrix}
+    y_1' & = & y_2\\
+    y_2' & = & y_3\\
+    \vdots  &  & \vdots \\
+    y_n' & = & f(x, y_1, ..., y_n)
+  \end{matrix}
+\end{equation}
+
+\textbf{Example}
+We want to rewrite the following 2nd order ODE into a system of first-order ODE's.
+\begin{equation}
+  \ddot{x}(t) + 2\delta\dot{x}(t) + \omega_0^2x(t) = f(t)
+\end{equation}
+If we introduce the vector-valued function
+\begin{equation}
+  \textup{y} = \begin{pmatrix} y_1 \\ y_2 \end{pmatrix} =
+                \begin{pmatrix} x \\ \dot{x} \end{pmatrix} \;\;\;\;  \Rightarrow \;\;\;\;
+                \dot{\textup{y}} =
+                \begin{pmatrix} \dot{y_1} \\ \dot{y_2} \end{pmatrix} =
+                \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix}
+\end{equation}
+rewriting:
+\begin{equation}
+  \begin{split}
+      \dot{\textup{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
+                          \begin{pmatrix} \dot{x} \\ -2\delta\dot{x}(t) - \omega_0^2x(t) + f(t) \end{pmatrix}\\
+      \dot{\textup{y}} =& \begin{pmatrix} \dot{y_1} \\ \dot{y_2} \end{pmatrix} =
+                          \begin{pmatrix} 0 & 1 \\ -\omega_0^2 & -2\delta \end{pmatrix}
+                          \begin{pmatrix} x\\ \dot{x} \end{pmatrix} +
+                          \begin{pmatrix} 0 \\ f(t) \end{pmatrix}\\
+      \dot{\textup{y}} =& \textup{A}\textbf{y} + \mathbf{b}
+  \end{split}
+\end{equation}
