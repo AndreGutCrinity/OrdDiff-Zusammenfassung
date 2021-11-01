@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  1 NOV 2021 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  1 NOV 2021 21:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -693,37 +693,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-) (./1_4_systems_of_differential_equations.tex) (./1_5_slope_field.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--25
+) (./1_4_systems_of_differential_equations.tex) (./1_5_slope_field.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+<Pics/1.5.1.jpg, id=60, 423.5825pt x 317.185pt>
+File: Pics/1.5.1.jpg Graphic file (type jpg)
+<use Pics/1.5.1.jpg>
+Package pdftex.def Info: Pics/1.5.1.jpg  used on input line 15.
+(pdftex.def)             Requested size: 128.40163pt x 96.14839pt.
+<Pics/1.5.2.jpg, id=61, 423.5825pt x 317.185pt>
+File: Pics/1.5.2.jpg Graphic file (type jpg)
+<use Pics/1.5.2.jpg>
+Package pdftex.def Info: Pics/1.5.2.jpg  used on input line 15.
+(pdftex.def)             Requested size: 128.40163pt x 96.14839pt.
+
+Overfull \hbox (3.99895pt too wide) in paragraph at lines 14--18
+[][] 
+ []
+
+) (./1_6_solvability.tex) (./2_1_analytical_methods.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pics/1.5.1.jpg> <./Pics/1.5.2.jpg>]) (./2_2_analytical_methods_for_linear.tex
+Underfull \hbox (badness 10000) in paragraph at lines 44--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 16.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 16.
+
+Missing character: There is no · in font cmr8!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 19--30
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6D055899FBDF68F43AF4A45F19ED7FD5;280.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: 132264BE6473673566EEE88F136E28AE;875.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 13887 strings out of 480876
- 246480 string characters out of 5911487
- 721482 words of memory out of 5000000
- 29227 multiletter control sequences out of 15000+600000
- 553104 words of font info for 75 fonts, out of 8000000 for 9000
+ 13950 strings out of 480876
+ 247463 string characters out of 5911487
+ 702482 words of memory out of 5000000
+ 29256 multiletter control sequences out of 15000+600000
+ 554217 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,22n,48p,982b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/f
-onts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb>
-Output written on main.pdf (1 page, 202218 bytes).
+ 46i,22n,48p,982b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-
+dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb>
+Output written on main.pdf (2 pages, 287013 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
