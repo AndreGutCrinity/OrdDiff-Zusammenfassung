@@ -1,0 +1,100 @@
+% ========== Packages ==========
+\usepackage[a4paper,
+  left=10mm,
+  right=10mm,
+  top=10mm,
+  bottom=17mm
+]{geometry}
+
+% \usepackage[ngerman]{babel} %Ändert die Sprache
+\usepackage[T1]{fontenc} %Wichtig für ä ö ü
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol,multirow}
+\usepackage{longtable} %Für lange Tabellen
+\usepackage{arydshln} %Für gestrichelte Linien in Tabellen
+\usepackage{tabularx}
+\usepackage{pdfpages} %Zum einfügen von PDF's
+\usepackage{hyperref} %Für hyperlinks
+\hypersetup{bookmarks=true}
+\usepackage{parskip}
+\usepackage{caption} %Für die Beschriftung von Bilder
+\captionsetup{justification=centering}
+\captionsetup{font=it}
+\setlength{\parindent}{0pt}
+\usepackage{subcaption} %Für die Beschriftung unterteilter Bilder
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{siunitx}%Für einheiten im Symbolverzeichnis
+% \usepackage[symbols,nogroupskip,sort=none]{glossaries-extra}%Für Symbolverzeichnis
+% % \input{symbolverzeichnis}
+\usepackage{lipsum}%Für pseudo text
+
+
+
+\makeatletter %Für römische Zahlen
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+
+%Für die dicken Linien in Tabellen
+\def\thickhline{%
+  \noalign{\ifnum0=`}\fi\hrule \@height \thickarrayrulewidth \futurelet
+   \reserved@a\@xthickhline}
+\def\@xthickhline{\ifx\reserved@a\thickhline
+               \vskip\doublerulesep
+               \vskip-\thickarrayrulewidth
+               \fi
+      \ifnum0=`{\fi}}
+\makeatother
+\newlength{\thickarrayrulewidth}
+\setlength{\thickarrayrulewidth}{2\arrayrulewidth}
+
+%Sorgt dafür, dass nicht immer alles auf die ganze Seite verteilt wird.
+\raggedbottom
+
+% ========== Header and Footer ==========
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyhead[RE,LO]{Seite \thepage}
+% \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+\fancyfoot[RE,LO]{Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{.5pt}
+
+%Eigens erstellte Variablen
+\newcommand{\plotWidth}{0.7}
+\newcommand{\garphWidth}{0.7}
+\newcommand{\linienAbstand}{2ex}
+\newcommand{\linienDicke}{0.5pt}
+\newcommand{\linienDickeDick}{1.5pt}
+
+
+% \usepackage{calc}
+% \usepackage{ifthen}
+% \ifthenelse{\lengthtest { \paperwidth = 11in}}
+%     { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+% 	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+% 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+% 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+% 	}
+% \pagestyle{empty}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+% -----------------------------------------------------------------------
