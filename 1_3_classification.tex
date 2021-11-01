@@ -1,13 +1,35 @@
 \section{Classification}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDickeDick}
 
-Differential equations can be classified according to various criteria. Besides the order of an ODE we are also interested in whether an ODE is linear, homogeneous, separable or autonomous.
+Differential equations can be classified according to various criteria. Besides the order of an ODE we are also interested in whether an ODE is linear, homogeneous, separable or autonomous.\\
 
-\textbf{Linearity}
-An $n-th$ order ODE is \emph{linear}, if it is of the form:
+\textbf{Linearity}\\
+An \emph{n-th} order ODE is \emph{linear}, if it is of the form:
 \begin{equation*}
   a_n(x) \cdot y^{(n)} + ... + a_1(x) \cdot y' + a_0(x) \cdot y = g(x)
 \end{equation*}
-where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions. Or i.e.
+where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions.\\
 
-\textbf{Homogenity}
+\textbf{Homogenity}\\
+A lienar ODE is \emph{homogeneous}, if $g(x) = 0$ for al $x$; otherwise the ODE is \emph{inhomogeneous}, and $g(x)$ is the \emph{inhomogeneity} or \emph{source} term.\\
+
+\textbf{Constant coefficient}\\
+A linear ODE has constant coefficients, if it is of the form
+\begin{equation*}
+  a_n \cdot y^{(n)} + ... + a_1 \cdot y'+ a_0 \cdot y = g(x),
+\end{equation*}
+with $a_n \neq 0$.\\
+
+\textbf{Examples}\\
+\begin{tabular}{ll}
+  $y' = f(x)$ & Inhomogeneous linear ODE for $y(x)$ with\\
+  & source term $f(x)$\\
+  $m \cdot \dot{v} = m \cdot g - k \cdot v^2$ & Nonlinear ODE for $v(t)$\\
+  $l \cdot \ddot{\Phi} + g \cdot sin(\Phi) = 0$ & Nonlinear ODE for $\Phi(t)$\\
+  $l \cdot \ddot{\Phi} + g \cdot \phi$ & Homogeneous linear ODE for $\Phi(t)$\\
+  $l \cdot \ddot{\Phi} + g \cdot \phi = sin(\omega t)$ & Inhomogeneous linear ODE for $\Phi(t)$ with\\
+  & source term $sin(\omega t)$\\
+  $i''+ \frac{R}{L}i' + \frac{1}{LC}i = 0$ & Homogeneous linear ODE for $i(t)$
+\end{tabular}
+
+\textbf{Separability}\\
