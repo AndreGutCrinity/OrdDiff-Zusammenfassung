@@ -25,7 +25,7 @@ An ODE of \emph{n}-th order is equivalent to a system of first-order ODE's.
   \end{matrix}
 \end{equation}
 
-\textbf{Example}
+\textbf{Example: 2nd-order ODE to system of first-order ODE's}\\
 We want to rewrite the following 2nd order ODE into a system of first-order ODE's.
 \begin{equation}
   \ddot{x}(t) + 2\delta\dot{x}(t) + \omega_0^2x(t) = f(t)
@@ -43,7 +43,7 @@ rewriting:
   \begin{split}
       \dot{\textup{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
                           \begin{pmatrix} \dot{x} \\ -2\delta\dot{x}(t) - \omega_0^2x(t) + f(t) \end{pmatrix}\\
-      \dot{\textup{y}} =& \begin{pmatrix} \dot{y_1} \\ \dot{y_2} \end{pmatrix} =
+      \dot{\textup{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
                           \begin{pmatrix} 0 & 1 \\ -\omega_0^2 & -2\delta \end{pmatrix}
                           \begin{pmatrix} x\\ \dot{x} \end{pmatrix} +
                           \begin{pmatrix} 0 \\ f(t) \end{pmatrix}\\

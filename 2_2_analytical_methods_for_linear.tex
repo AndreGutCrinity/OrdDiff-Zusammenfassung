@@ -11,10 +11,56 @@ The general solution of the inhomogeneous ODE is the sum
 \end{equation}
 where $y_h$ is the general solution of the homogeneous ODE and $y_s$ any special solution of the inhomogeneous ODE.
 
-\subsection{First-oder linear ODE's}
+\subsection{First-order linear ODE's}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
-The homogeneous ODE is separable and can therefore be integrated. One finds as general solution of the homogeneous ODE $y 0 + f(x) · y = 0$:
+To solve a first-order linear ODE we thus have to find $y_h$ and $y_s$\\
+$\mathbf{y_h}$: a homogeneous first-order ODE is separable and can therefore be solved by the standard procedure for separable ODE’s described above.\\
+$\mathbf{y_s}$: To find a special solution of and ODE, there are several possibilities. In the case of an ODE with constant coefficients, it usually suffices to choose for $y_s$ an \emph{ansatz of the form of the source term $g(x)$}. In the case of non-constant coefficients, the method \emph{variation of constants} usually works better.
+
+\textbf{Example using the ansatz}\\
+We solve the ODE
 \begin{equation}
-  y_h = K \cdot d^{-F(x)}, \;\; K \in \mathbb{R},
+  y' + ay = b
 \end{equation}
-where $F(x)$ is an andtiderivative of $f(x)$\\
+- To determine $y_h$, we integrate the homogeneous ODE
+\begin{equation}
+  y' + a_y = 0
+\end{equation}
+by separation of variables we obtain the solution
+\begin{equation}
+  y_h = C \cdot e^{-ax}, \;\; C \in \mathbb{R}.
+\end{equation}
+- For finding $y_s$ we choose the ansatz in the form of the source term. In this case the source term is constant, $g(x) = b$. Therefore we assume that the special solution $y_s$ is constant as well, i.e. we make an ansatz $y_s = c$. We plug this ansatz into the inhomogeneous ODE and obtain the special solution $y_s$.
+\begin{equation}
+  y_s'+ay_s = b \;\;\; \Rightarrow \;\;\; y_s = \frac{a}{b}
+\end{equation}
+The general solution therefore is
+\begin{equation}
+  y = C \cdot e^{-ax} + \frac{a}{b}, \;\; C \in \mathbb{R}
+\end{equation}
+
+\textbf{Ansatz functions for the solution of the inhomogeneous first-order ODE}
+\begin{table}[H]
+  \begin{tabular}{ll}
+    Source term $g(x)$ & Ansatz $y_s$\\
+    $g(x) = b_0$ & $y_s = c_0$\\
+    $g(x) = b_1x + b_0$ & $y_s = c_1x + c_0$\\
+    $g(x) = b_2x^2 + b_1x + b_0$ & $y_s = c_2 x^2 + c_1x + c_0$\\
+    $g(x) = \sum_{i = 0}^n b_i x^i$ & $y_s = \sum_{i = 0}^n c_i x^i$\\
+    $g(x) = A\;sin(\omega x) + B\;cos(\omega x)$ & $
+    \begin{aligned}
+      y_s &= C_1sin(\omega x) + C_2 cos(\omega x)\\
+      y_s &= Csin(\omega x + \varphi)
+    \end{aligned}$\\
+    $g(x) = Ae^{bx}$ & $y_s =
+    \left\{\begin{matrix}
+      \frac{A}{b + a}e^{bx} \;\; \text{ for } b \neq -a\\
+      Axe^{-ax} \;\text{ for } b = -a
+    \end{matrix}\right.$
+  \end{tabular}
+\end{table}
+In addition, the following rules must be followed:\\
+\textbf{Linearity} If $g(x)$ is a linear combination of several source terms, one has to assume as ansatz for $y_s(x)$ a correponding linear combination of several ansatz terms.\\
+\textbf{Resonance} If the source term $g(x)$ is itself already a solution of the homogeneous ODE, the correponding ansatz for $y_s$ has to be multiplied with x. So if for example $y_h = Ce^x$, and $g(x) = e^x$, the ansatz $y_s = \mathbf{x} \cdot e^x$ is choosen.
+
+\textbf{Example using separation of variables}\\
