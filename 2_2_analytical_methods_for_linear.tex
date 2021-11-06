@@ -131,10 +131,10 @@ If $\lambda$ is a real root of $P(\lambda)$ of multiplicity $m$, then the functi
 \begin{equation}
   y_1 =e^{\lambda x}, \;   y_2 =xe^{\lambda x} ,...,\;   y_m =x^{m-1}e^{\lambda x}
 \end{equation}
-are distinct linearly independent solutions. i.e. if $m = 1$ and $\lambda$ is a simple root the $y = C_1\; e^{\lambda x}$ is the solution.\\
+are distinct linearly independent solutions. i.e. if $m = 1$ and $\lambda$ is a simple root then $y = C_1\; e^{\lambda x}$ is the solution.\\
 Example: The homogeneous ODE
 \begin{equation}
-  y''' - 2y'' - 4y' = 0
+  y^{(3)}- 2y'' - 4y' = 0
 \end{equation}
 has the characteristic polynomial
 \begin{equation}
@@ -170,4 +170,40 @@ has the characteristic polynomial
 The roots of this polynomial are $\lambda_1 = j, \lambda_2 = -j$, hence the general solution of the ODE is
 \begin{equation}
   y = C_1 cos(x) + C_2 sin(x)
+\end{equation}
+
+\textbf{The inhomogeneous case}\\
+We now determine special solutions of the inhomogeneous ODE's. The best method for solving such ODE's is as above using an ansatz of the form of the source term, with undetermined coefficients. These coefficients are then determined by plugging the ansatz into the equation.\\
+Example: Consider the inhomogeneous ODE
+\begin{equation}
+  y^{(3)} + y'' + y' + y = 2x + 5
+\end{equation}
+The general solution of the homogeneous ODE is (The complex roots are $-1, -j, j)$
+\begin{equation}
+  y_h = C_1 e^{-x} + C_2cos(x) + C_3 sin(x)
+\end{equation}
+To find a special solution of the inhomogeneous ODE, we choose the ansatz
+\begin{equation}
+  y_s = b_1x + b_0
+\end{equation}
+Plugin this into the initial ODE leads to
+\begin{equation}
+  b_1 + (b_1x + b_0) = 2x + 5
+\end{equation}
+which leas to the following linear system of equations for a and b
+\begin{equation}
+  \begin{vmatrix}
+        &   & b_1 & = & 2\\
+    b_1 & + & b_0 & = & 5
+  \end{vmatrix}
+  \;\;\; \Rightarrow \;\;\;
+  b_1 = 2, \;\;\; b_0 = 3
+\end{equation}
+The desired special solution hence is
+\begin{equation}
+  y_s = 2x + 3
+\end{equation}
+and the general solution therefore is
+\begin{equation}
+  y = C_1 e^{-x} + C_2cos(x) + C_3 sin(x) + 2x + 3
 \end{equation}

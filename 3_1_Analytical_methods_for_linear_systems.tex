@@ -1,0 +1,84 @@
+\section{Analytical methods for linear systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDickeDick}
+By the definition given above, by a system of ODE’s we mean the following system of explicit firstoder ODE’s:
+\begin{equation}
+  \begin{matrix}
+    \dot{x}_1 & = & f_1(t, x_1, ..., x_n)\\
+    \vdots  &  & \vdots \\
+    \dot{x}_n & = & f_n(t, x_1, ..., x_n)
+  \end{matrix}
+\end{equation}
+
+\subsection{Overview}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+A system of linear first-order ODE’s has the form
+\begin{equation}
+  \begin{matrix}
+    \dot{x}_1 & = & a_{11}(t)x_1 + ... + a_{1n}(t)x_n + b_1 (t)\\
+    \vdots  &  & \vdots \\
+    \dot{x}_n & = & a_{n1}(t)x_1 + ... + a_{nn}(t)x_n + b_n (t)
+  \end{matrix}
+\end{equation}
+or in matrix-vector notation
+\begin{equation}
+  \dot{\mathbf{x}} = A(t)\mathbf{x}+\mathbf{b}t
+\end{equation}
+The general solution of the inhomogeneous system is the sum
+\begin{equation}
+  \mathbf{x} = \mathbf{x}_h+ \mathbf{x}_s
+\end{equation}
+where $x_h$ is the general solution of the homogeneous system and $x_s$ any special solution of the inhomogeneous system.\\
+
+The set of solutions of the homogeneous system is an n-dimensional vector space. This is equivalent to the following two statements:\\
+ - Any linear combination of solutions is again a solution, i.e. if $x_1$ and $x_2$ are solutions, then $C_1x_1 + C_2x_2$ is also a solution for any $C_1, C_2 \in \mathbb{R}$\\
+ - There exist precisely $n$ linearly independent solution $x_1, . . . , x_n$. Such a set $\{x_1, . . . , x_n\}$ of linearly independent solutions is also called a \emph{fundamental system of solutions}. Algebraically, a fundamental system thus is a basis of the vector space of solutions.\\
+
+\subsection{Homogeneous linear systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+Since in the scalar case the solution of a homogeneous linear ODE is given by $x = e^{at}$, we try in the vectorial case an ansatz of the form
+\begin{equation}
+  \mathbf{x} = e^{\lambda t} \cdot c =
+  \begin{pmatrix}
+    e^{\lambda t}c_1\\
+    \vdots\\
+    e^{\lambda t}c_n
+  \end{pmatrix}
+\end{equation}
+Plugging the ansatz into the ODE leads to $e^{\lambda t}\lambda c = e^{\lambda t} Ac$ and we thus get for $\lambda$ and $c$ the equation
+\begin{equation}
+  A\mathbf{c} = \lambda \mathbf{c}
+\end{equation}
+This precisely means that $c$ is an \emph{eigenvector} of $A$ to the \emph{eigenvalue} $\lambda$.\\
+
+\textbf{Example}\\
+We compute the general solution of the homogeneous system
+\begin{equation}
+  \begin{split}
+    \dot{x}_1 &= 2x_1 - x_2\\
+    \dot{x}_2 &= -x_1 + 2x_2
+  \end{split}
+\end{equation}
+
+or in the form $\dot{\mathbf{x}} = A\mathbf{x}$ with
+\begin{equation}
+  \mathbf{x}(t) = \begin{pmatrix}
+    x_1(t)\\
+    x_2(t)
+  \end{pmatrix}
+  , \;\; A = \begin{pmatrix}
+      2 & -1\\
+      -1 & 2
+  \end{pmatrix}
+\end{equation}
+
+The matrix $A$ has the eigenvaluess $\lambda_1 = 1, \lambda_2 = 3$ with corresponding eigenvectors $v_1 = \binom{1}{1}, v_2 = \binom{1}{-1}$. Hence the general solution $\mathbf{x}(t)$ of the homogeneous system is
+\begin{equation}
+  \mathbf{x}(t) = \begin{pmatrix}
+    x_1(t)\\
+    x_2(t)
+  \end{pmatrix} = C_1 \begin{pmatrix} 1 \\ 1 \end{pmatrix} e^t+
+  C_2 \begin{pmatrix} 1 \\ -1 \end{pmatrix} 3^{3t}
+\end{equation}
+
+\subsection{Inhomogeneous linear systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
