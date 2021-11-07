@@ -50,8 +50,18 @@ Plugging the ansatz into the ODE leads to $e^{\lambda t}\lambda c = e^{\lambda t
 \end{equation}
 This precisely means that $c$ is an \emph{eigenvector} of $A$ to the \emph{eigenvalue} $\lambda$.\\
 
-\textbf{Example}\\
-We compute the general solution of the homogeneous system
+We destinguish between the following casses for $\lambda$\\
+\textbf{Simple real eigenvalue}\\
+If $\lambda$ is a simple real eigenvalue of $A$ with eigenvector $\mathbf{c}$, then
+\begin{equation}
+  \mathbf{x}(t) = e^{\lambda t} \cdot \mathbf{c}
+\end{equation}
+is a solution.\\
+
+\textbf{Multiple real eigenvalues}\\
+If $\lambda$ is a real eigenvalue of $A$ with multiplicity $k$:\\
+
+Example: We compute the general solution of the homogeneous system
 \begin{equation}
   \begin{split}
     \dot{x}_1 &= 2x_1 - x_2\\
@@ -71,13 +81,48 @@ or in the form $\dot{\mathbf{x}} = A\mathbf{x}$ with
   \end{pmatrix}
 \end{equation}
 
-The matrix $A$ has the eigenvaluess $\lambda_1 = 1, \lambda_2 = 3$ with corresponding eigenvectors $v_1 = \binom{1}{1}, v_2 = \binom{1}{-1}$. Hence the general solution $\mathbf{x}(t)$ of the homogeneous system is
+The matrix $A$ has the eigenvalues $\lambda_1 = 1, \lambda_2 = 3$ with corresponding eigenvectors $v_1 = \binom{1}{1}, v_2 = \binom{1}{-1}$. Hence the general solution $\mathbf{x}(t)$ of the homogeneous system is
 \begin{equation}
   \mathbf{x}(t) = \begin{pmatrix}
     x_1(t)\\
     x_2(t)
-  \end{pmatrix} = C_1 \begin{pmatrix} 1 \\ 1 \end{pmatrix} e^t+
-  C_2 \begin{pmatrix} 1 \\ -1 \end{pmatrix} 3^{3t}
+  \end{pmatrix} = C_1 e^t \begin{pmatrix} 1 \\ 1 \end{pmatrix} +
+  C_2 3^{3t} \begin{pmatrix} 1 \\ -1 \end{pmatrix}
+\end{equation}
+
+\textbf{Simple complex eigenvalues}\\
+If $\lambda = \mu + j\nu$ is a simple complex eigenvalue of $A$ and $c = a + jb$ a corresponding complex eigenvector of $A$, then from the complex solution
+\begin{equation}
+  \mathbf{x}(t) = e^{\lambda t} \mathbf{c} = e^{(\mu + j\nu)t} (\mathbf{a} + j\mathbf{b})
+\end{equation}
+we get two linearly independent real solutions by separating the complex solution into real and imaginary parts:
+\begin{equation}
+  \begin{split}
+    \mathbf{z}_1(t) &= \textup{Re}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; cos(\nu t) - \mathbf{b} \; sin(\nu t))\\
+    \mathbf{z}_2(t) &= \textup{Im}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; sin(\nu t) + \mathbf{b} \; cos(\nu t))
+  \end{split}
+\end{equation}
+The complex conjugate of $\lambda$, namely $c = a - jb$ does not have to be considered because it would again lead to the same solutions.\\
+x is then z1 + z2 ???\\
+
+Example: We compute the general solution of a homogeneous system of ODE's where the matrix $A$ is
+\begin{equation}
+  A =
+  \begin{pmatrix}
+    3 & -2\\
+    4 & -1
+  \end{pmatrix}
+\end{equation}
+The eigenvalues of $A$ are $\lambda_{1, 2} = 1 \pm 2j$, with eigenvectors $\lambda_{1,2} = \begin{pmatrix}\color{red} 1 \pm j \\ \color{red}2 \color{black}\end{pmatrix}$.
+\begin{equation}
+  \mathbf{x} = C_1e^t \begin{pmatrix}
+  \color{red}1\color{black}\textup{cos}(2t) - \color{red}1\color{black}\textup{sin}(2t)\\
+  \color{red}2\color{black}\textup{cos}(2t) - \color{lightgray}0\textup{sin}(2t)\color{black} \end{pmatrix} +
+  C_2 e^t \begin{pmatrix}
+  \color{red}1\color{black}\textup{sin}(2t) +
+  \color{red}1\color{black}\textup{cos}(2t)\\
+  \color{red}2\color{black}\textup{sin}(2t) +
+  \color{lightgray}0\textup{cos}(2t)\color{black}\end{pmatrix}
 \end{equation}
 
 \subsection{Inhomogeneous linear systems}
