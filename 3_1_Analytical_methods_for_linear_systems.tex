@@ -37,18 +37,18 @@ The set of solutions of the homogeneous system is an n-dimensional vector space.
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
 Since in the scalar case the solution of a homogeneous linear ODE is given by $x = e^{at}$, we try in the vectorial case an ansatz of the form
 \begin{equation}
-  \mathbf{x} = e^{\lambda t} \cdot c =
+  \mathbf{x} = e^{\lambda t} \cdot \mathbf{c} =
   \begin{pmatrix}
     e^{\lambda t}c_1\\
     \vdots\\
     e^{\lambda t}c_n
   \end{pmatrix}
 \end{equation}
-Plugging the ansatz into the ODE leads to $e^{\lambda t}\lambda c = e^{\lambda t} Ac$ and we thus get for $\lambda$ and $c$ the equation
+Plugging the ansatz into the ODE leads to $e^{\lambda t}\lambda \mathbf{c} = e^{\lambda t} A\mathbf{c}$ and we thus get for $\lambda$ and $\mathbf{c}$ the equation
 \begin{equation}
   A\mathbf{c} = \lambda \mathbf{c}
 \end{equation}
-This precisely means that $c$ is an \emph{eigenvector} of $A$ to the \emph{eigenvalue} $\lambda$.\\
+This precisely means that $\mathbf{c}$ is an \emph{eigenvector} of $A$ to the \emph{eigenvalue} $\lambda$.\\
 
 We destinguish between the following casses for $\lambda$\\
 \textbf{Simple real eigenvalue}\\

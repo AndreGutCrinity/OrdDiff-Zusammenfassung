@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1636301991 "main.tex" "main.pdf" "main" 1636301995
+["pdflatex"] 1636301991 "main.tex" "main.pdf" "main" 1636315073
   "1_1_fundamentals.tex" 1635783893 526 e9814e8615b4f07665f5eb13afd2893a ""
   "1_3_classification.tex" 1635926573 2390 16acdef6482447d270422936da10fee4 ""
   "1_4_systems_of_differential_equations.tex" 1635926778 2225 f55afac8a40200532108c1d5e2fcaca5 ""
@@ -172,7 +172,7 @@
   "main.out" 1636301994 1491 c87c70bcaa2c9c5affad06faab1aa0d5 "pdflatex"
   "main.tex" 1636221131 962 b3de939594e7d56f75ea4c0d01a91cc5 ""
   (generated)
+  "main.aux"
+  "main.log"
   "main.pdf"
   "main.out"
-  "main.log"
-  "main.aux"
