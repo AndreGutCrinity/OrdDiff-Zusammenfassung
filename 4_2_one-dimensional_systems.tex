@@ -1,0 +1,35 @@
+\section{One-Dimensional Systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDickeDick}
+
+\subsection{Fixed points}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+A \emph{fixed point} of the a dynamical system is an $x^*$ with the property
+\begin{equation}
+  \dot{x} = f(x^*) = 0
+\end{equation}
+If $x^*$ is a fixed point, then $x(t) = x^*$ is a constant solution of the system.\\
+
+For the solution $x(t)$ of a one-dimensional system there are the following possibilites:
+\begin{itemize}
+  \item The solution is a fixed point
+  \item The solution grows monotonically, $i.e. \dot{x}(t) > 0$
+  \item The solution decays monotonically, $i.e. \dot{x}(t) < 0$
+\end{itemize}
+
+Example: We consider the ODE of limited growth
+\begin{equation}
+  \dot{N} = rN\left(1-\frac{N}{K}\right)
+\end{equation}
+If $K = 1$, $\dot{N}$ is $0$ if $N = 0$ and $N = 1$ i.e. the fixed points are $x_1 = 0$ and $x_2 = 1$. 
+
+1D-systems have no periodical Solutions
+
+\subsection{Linear stability analysis}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+\begin{itemize}
+  \item stable if $f'(x^*) < 0$,
+  \item unstable, if $f'(x^*) > 0$,
+  \item stable of unstable, if $f'(x^*) = 0$
+\end{itemize}
+
+Example:
