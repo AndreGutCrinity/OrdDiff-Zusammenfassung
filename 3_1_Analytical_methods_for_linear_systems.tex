@@ -51,15 +51,11 @@ Plugging the ansatz into the ODE leads to $e^{\lambda t}\lambda \mathbf{c} = e^{
 This precisely means that $\mathbf{c}$ is an \emph{eigenvector} of $A$ to the \emph{eigenvalue} $\lambda$.
 We destinguish between the following cases for $\lambda$\\
 
-\textbf{Simple real eigenvalue}\\
-If $\lambda$ is a simple real eigenvalue of $A$ with eigenvector $\mathbf{c}$, then
+\textbf{Real eigenvalues}\\
+If all eigenvalues of $A$ are real and $A$ has $n$ linear independent eigenvectors then the general solution is a linear combination of
 \begin{equation}
   \mathbf{x}(t) = e^{\lambda t} \cdot \mathbf{c}
 \end{equation}
-is a solution.\\
-
-\textbf{Multiple real eigenvalues}\\
-If $\lambda$ is a real eigenvalue of $A$ with multiplicity $k$:\\
 
 Example: We compute the general solution of the homogeneous system
 \begin{equation}
@@ -87,10 +83,14 @@ The matrix $A$ has the eigenvalues $\lambda_1 = 1, \lambda_2 = 3$ with correspon
     x_1(t)\\
     x_2(t)
   \end{pmatrix} = C_1 e^t \begin{pmatrix} 1 \\ 1 \end{pmatrix} +
-  C_2 3^{3t} \begin{pmatrix} 1 \\ -1 \end{pmatrix}
+  C_2 e^{3t} \begin{pmatrix} 1 \\ -1 \end{pmatrix}
 \end{equation}
 
-\textbf{Simple complex eigenvalues}\\
+\textbf{Complex eigenvalues}\\
+If there is at least one pair of complex conjugate eigenvalues and $A$ has $n$ linear independent eigenvectors then the general (complex) solution is a linear combination of $\mathbf{x} = e^{\lambda t}\cdot \mathbf{c}$. Real and complex parts of complex solutions are real
+solutions
+
+
 If $\lambda = \mu + j\nu$ is a simple complex eigenvalue of $A$ and $\mathbf{c} = \mathbf{a} + j\mathbf{b}$ a corresponding complex eigenvector of $A$, then from the complex solution
 \begin{equation}
   \mathbf{x}(t) = e^{\lambda t} \mathbf{c} = e^{(\mu + j\nu)t} (\mathbf{a} + j\mathbf{b})
@@ -124,6 +124,36 @@ The eigenvalues of $A$ are $\lambda_{1, 2} = 1 \pm 2j$, with eigenvectors $\lamb
   \color{red}2\color{black}\textup{sin}(2t) +
   \color{lightgray}0\textup{cos}(2t)\color{black}\end{pmatrix}
 \end{equation}
+
+\textbf{Polynomial expressions}\\
+If $A$ has multiple eigenvalues and less than $n$ linear independent eigenvectors (More eigenvalues than eigenvectors), then not all solutions are of the form $\mathbf{x}(t) = e^{\lambda t} \mathbf{c}$. Additional solutions involve polynomial expressions. These polynomials are of the form\\
+\begin{equation}
+  \begin{split}
+    p_0(t) &= e^{\lambda t} \mathbf{v}_1\\
+    p_1(t) &= e^{\lambda t} (t\mathbf{v}_1 + \mathbf{v}_2)\\
+    p_2(t) &= e^{\lambda t} (t^2\mathbf{v}_1 + 2t\mathbf{v}_2 + 2\mathbf{v}3)
+  \end{split}
+\end{equation}
+
+Example: The only eigenvalue of the matrix $A = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$ is $\lambda = 2$, with the single (linearly
+independent) eigenvector $\mathbf{v} = \binom{1}{0}$. Let $\mathbf{v}_1 = \mathbf{v}$\\
+To find a generalized eigenvector $\mathbf{v}_2$, we solve the equation
+\begin{equation}
+  (A - \lambda E_n)\mathbf{v}_2 = \mathbf{v}_1
+\end{equation}
+\begin{equation}
+  \begin{split}
+    \left(\begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix} -
+    \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} \right) \mathbf{v}_2 =&
+    \begin{pmatrix} 1 \\ 0 \end{pmatrix}\\
+    \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix} \mathbf{v}_2 =&
+    \begin{pmatrix} 1 \\ 0 \end{pmatrix}\\
+    \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} =&
+    \begin{pmatrix} 1 \\ 0 \end{pmatrix}
+  \end{split}
+\end{equation}
+
+
 
 \subsection{Inhomogeneous linear systems}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
