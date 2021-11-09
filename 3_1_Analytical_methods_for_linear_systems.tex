@@ -186,6 +186,8 @@ We will look at the following two methods for obtaining the special solution of 
 \end{itemize}
 
 \textbf{Elemination of variables}\\
+This method can be understood as the inversion of what we've done before. We transform a system of first-order ODE’s into a single ODE of higher order. The method is not recommended for ODE systems of dimension 3 or higher. This method is best explained with an example.\\
+
 We solve the IVP
 \begin{equation}
   \begin{split}
@@ -193,25 +195,23 @@ We solve the IVP
     \dot{x}_2 &= -x_1 + 2x_2 - 1, \;\;\; x_2(0) = 1
   \end{split}
 \end{equation}
-
+To eliminate $x_2(t)$, we write the first equation of as
 \begin{equation}
   x_2 = -\dot{x}_1 + 2x_1 + 1
 \end{equation}
-
+If this term and its derivative are plugged into the second equation, we obtain for $x_1$ the second order linear ODE
 \begin{equation}
   \ddot{x}_1 -4\dot{x}_1 + 3x_1 + 1 = 0
 \end{equation}
-
+This ODE can be solved with the method described before, and one gets the general solution
 \begin{equation}
   x_1 = C_1 e^t + C_2 e^{3t} - \frac{1}{3}
 \end{equation}
-
+If this solution and its derivative are plugged into the second initial equation, one gets for $x_2$ the general solution
 \begin{equation}
   x_2 = C_1 e^t - C_2 e^{3t} + \frac{1}{3}
 \end{equation}
-
-
-
+Observe that the constants $C_1$ adn $C_2$ have to be the same in both equations. Now the initial conditions can be pluged in, and we obtain the system of equations
 \begin{equation}
   \begin{vmatrix}
     C_1 e^t + C_2 - \frac{1}{3} = 0\\
@@ -233,10 +233,46 @@ The IVP thus has the unique solution
 
 
 \textbf{Choice of an ansatz}\\
+As in the scalar case, we choose as ansatz for a special solution $\mathbf{x}_s$ an ansatz of the same type as the source term $\mathbf{g}(t)$ with coefficients which are yet undetermined. These coefficients are then determined by plugging the ansatz into the inhomogeneous system. The choice of a suitable ansatz can be made according to the Table above, if one reads the entries of the table vectorially.\\
+Observe that the choice of an ansatz always has to be made globally, and not componentwise: If there are different source terms in the various ODE’s of the system, then these component source terms all have to be taken into account in the choice of the ansatz for $\mathbf{x}_s$.\\
+
+\textbf{Example} (Continuation). Consider the IVP
 \begin{equation}
-  \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} =
-  \begin{pmatrix}
-    \frac{1}{2}e^t - \frac{1}{6}e^{3t} - \frac{1}{3}\\
-    \frac{1}{2}e^t + \frac{1}{6}e^{3t} + \frac{1}{3}
-  \end{pmatrix}
+  \begin{split}
+    \dot{x}_1 &= 2x_1 - x_2 + 1, \;\;\; x_1(0) = 0\\
+    \dot{x}_2 &= -x_1 + 2x_2 - 1, \;\;\; x_2(0) = 1
+  \end{split}
 \end{equation}
+The general solution of the homogeneous system is given by
+\begin{equation}
+  \mathbf{x}_h = \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} =
+  C_1 \begin{pmatrix} 1 \\ 1 \end{pmatrix} e^t +
+  C_2 \begin{pmatrix} 1 \\ -1\end{pmatrix} e^{3t}
+\end{equation}
+To find a special solution, we select an ansatz of the type of the source term $\mathbf{b} = \binom{1}{-1}$, i.e. the constant ansatz
+\begin{equation}
+  \mathbf{x}_p = \begin{pmatrix} A_1 \\ A_2 \end{pmatrix}
+\end{equation}
+By plugging this ansatz into the initial IVP, we obtain the system of equations
+\begin{equation}
+  \begin{vmatrix}
+    0 &= 2A_1 - A_2 + 1\\
+    0 &= -A_1 + 2A_2 - 1
+  \end{vmatrix}
+\end{equation}
+hence
+\begin{equation}
+  A_1 = -\frac{1}{3}, \;\;\;\;\;\; A_2 = \frac{1}{3}
+\end{equation}
+and thus the special solution
+\begin{equation}
+  \mathbf{x}_s(t) = \frac{1}{3} \begin{pmatrix} -1 \\ 1 \end{pmatrix}
+\end{equation}
+Combining $\mathbf{x}_h$ and $\mathbf{x}_s$, this leads to the general solution
+\begin{equation}
+  \begin{pmatrix} x_1(t) \\ x_2(t) \end{pmatrix} =
+  C_1 \begin{pmatrix} 1 \\ 1 \end{pmatrix} e^t +
+  C_2 \begin{pmatrix} 1 \\ -1\end{pmatrix} e^{3t} +
+  \frac{1}{3} \begin{pmatrix} -1 \\ 1 \end{pmatrix}
+\end{equation}
+To solve the IVP we plug in the initial conditions into the general solution and get the same solution as above.
