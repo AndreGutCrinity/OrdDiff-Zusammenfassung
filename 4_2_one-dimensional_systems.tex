@@ -156,3 +156,32 @@ Discrete systems can (or do allways?) show a chaotic behaviour in the parameter 
   \centering
   \includegraphics[width=.9\linewidth]{Pics/9.5.png}
 \end{figure}
+
+Example: Consider the discrete dynamical system depending on the parameters $\mu \geq 0, \varepsilon \geq 0$ (Adler system)
+\begin{equation}
+  x_{x+1} = x_n + \mu + \varepsilon \textup{sin}(x_n) \;\;\; (\mu \geq 0, \varepsilon \leq 0)
+\end{equation}
+Fixed points $x^*$ are solutions of the equation $\mu + \varepsilon \textup{sin}(x) = 0$, hence
+\begin{equation}
+  x^*_{1, k} = -\textup{arcsin}\begin{pmatrix} \mu \\ \varepsilon \end{pmatrix} + k \cdot 2\pi, \;\;
+  x^*_{2, k} = (2k + 1)\pi + \textup{arcsin}\begin{pmatrix} \mu \\ \varepsilon \end{pmatrix}
+\end{equation}
+The fixed points only exist in the case $\mu \leq \varepsilon$\\
+For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We have $f(x) = x + \mu + \varepsilon \textup{sin}(x)$, hence $f'(x) = 1 + \varepsilon \textup{cos}(x)$. It follows that for $\mu = 1$
+\begin{equation}
+  \begin{split}
+    f'(x^*_{1, k}) =& 1 + \varepsilon \textup{cos}\left(-\textup{arcsin}\binom{1}{\varepsilon}\right)\\
+    =& 1 + \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
+    =& 1 + \sqrt{\varepsilon^2 - 1} \geq 1
+  \end{split}
+\end{equation}
+Hence the fixed points $x^*_{1, k}$ are unstable.
+\begin{equation}
+  \begin{split}
+    f'(x^*_{2, k}) =& 1 + \varepsilon \textup{cos}\left(\pi + \textup{arcsin}\binom{1}{\varepsilon}\right)\\
+    =& 1 - \varepsilon \textup{cos}\left(\textup{arcsin}\binom{1}{\varepsilon}\right)\\
+    =& 1 - \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
+    =& 1 + \sqrt{\varepsilon^2 - 1}
+  \end{split}
+\end{equation}
+For the stability of $x^*_{2, k}$ it is necessary that $|1 - \sqrt{\varepsilon^2-1} < 1$ holds. This is true if and only if $0 < \sqrt{\varepsilon^2 - 1} < 2$, hence in the case $1 < \varepsilon^2 < $5 resp. $1 < \varepsilon < \sqrt{5}$. The fixed points $x^*_{2, k}$ are thus stable in the case $1<\varepsilon<\sqrt{5}$.
