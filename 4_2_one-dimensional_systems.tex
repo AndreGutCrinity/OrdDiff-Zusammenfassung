@@ -85,3 +85,73 @@ Example: (continuation): We want to analyse the fixpoint $x^* \approx 0.739$ of 
   |f'(x^*)| = |\textup{sin}(x^*)| \approx |-0.674| < 1
 \end{equation}
 Hence $x^*$ is a stable fixed point of the system.
+
+\subsection{Bifurcations in Continous Systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+
+\textbf{Fundamentals}\\
+A qualitative change of the dynamics of a dynamical system
+\begin{equation}
+  \dot{x} = f(x, r) \;\;\; \text{or} \;\;\; x_{n+1} = f(x_n, r)
+\end{equation}
+depending on a parameter $r$ is a bifurcation of the system\\
+
+\textbf{Standard Bifurcations in descrete systems}\\
+\textbf{Saddle-node Bifurcation}\\
+The saddle-node bifurcation is a bifurcation in which fixed points are created or destroyed by the variation of a system parameter.\\
+Example: Dynamical system, depending on the parameter $r$
+\begin{equation}
+  \dot{x} = r + x^2
+\end{equation}
+Fixed points:
+\begin{equation}
+  \begin{split}
+    r& < 0: x^*_{1, 2} = \pm\sqrt{-r}\\
+    r& = 0: x^* = 0\\
+    r& > 0: \text{none}
+  \end{split}
+\end{equation}
+Stability of the fixed points for $r<0$:
+\begin{equation}
+  f(x) = r + x^2, \;\;\; f'(x) = 2x
+\end{equation}
+hence
+\begin{equation}
+  \begin{split}
+    x^*_1 &= \sqrt{-r} > 0: f'(x^*_1) > 0, unstable\\
+    x^*_2 &= -\sqrt{-r} < 0: f'(x^*_2) < 0, stable\\
+  \end{split}
+\end{equation}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.5\linewidth]{Pics/9.1.png}
+\end{figure}
+
+\textbf{Pitchfork Bifurcation}\\
+The pitchfork bifurcation is a bifurcation in which a fixed point changes its stability and two new fixed points are created.\\
+\begin{table}[H]
+  \setlength{\tabcolsep}{0.2em}
+  \footnotesize
+  \begin{tabular}{p{\linewidth / 2 - 0.5em}@{\hskip 1em}p{\linewidth / 2 - 0.5em}}
+    \includegraphics[width=\linewidth]{Pics/9.2.png} & \includegraphics[width=\linewidth]{Pics/9.3.png}\\
+    Supercritical & Subcritical
+  \end{tabular}
+\end{table}
+Supercritical: Additional fixed points only for parameter values greater (“super”) than the bifurcation point.\\
+Subcritical P-B: Additional fixed points only for parameter values smaller (“sub”) than the bifurcation point.\\
+
+\textbf{Transcritical Bifurcation}\\
+A transcritical bifurcation is a bifurcation in which the stability of two fixed points is interchanged.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.5\linewidth]{Pics/9.4.png}
+\end{figure}
+
+\subsection{Bifurcations in Discrete Systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+The bifurcations which we introduced in continuous systems can also occur in discrete systems.\\
+Discrete systems can (or do allways?) show a chaotic behaviour in the parameter space:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.9\linewidth]{Pics/9.5.png}
+\end{figure}
