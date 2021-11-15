@@ -1,33 +1,33 @@
-\BOOKMARK [0][-]{part.1}{I Modeling}{}% 1
-\BOOKMARK [1][-]{section*.1}{Fundamentals}{part.1}% 2
-\BOOKMARK [1][-]{section*.2}{Classification}{part.1}% 3
-\BOOKMARK [1][-]{section*.3}{Systems of differential equations}{part.1}% 4
-\BOOKMARK [1][-]{section*.4}{Slope field}{part.1}% 5
-\BOOKMARK [1][-]{section*.5}{Solvability}{part.1}% 6
-\BOOKMARK [0][-]{part.2}{II Ordinary Differential Equations}{}% 7
-\BOOKMARK [1][-]{section*.6}{Analytical methods for first-order ODE\220s}{part.2}% 8
-\BOOKMARK [2][-]{section*.7}{Overview}{section*.6}% 9
-\BOOKMARK [2][-]{section*.8}{Separable ODE\220s}{section*.6}% 10
-\BOOKMARK [2][-]{section*.9}{Exact ODE\220s}{section*.6}% 11
-\BOOKMARK [1][-]{section*.10}{Analytical methods for linear ODE\220s}{part.2}% 12
-\BOOKMARK [2][-]{section*.11}{Overview}{section*.10}% 13
-\BOOKMARK [2][-]{section*.12}{First-order linear ODE's}{section*.10}% 14
-\BOOKMARK [2][-]{section*.13}{Higher-order linear ODE's}{section*.10}% 15
-\BOOKMARK [1][-]{section*.14}{Numerical Methods}{part.2}% 16
-\BOOKMARK [2][-]{section*.15}{Single-setp methods}{section*.14}% 17
-\BOOKMARK [0][-]{part.3}{III System of Differential Equations}{}% 18
-\BOOKMARK [1][-]{section*.16}{Analytical methods for linear systems}{part.3}% 19
-\BOOKMARK [2][-]{section*.17}{Overview}{section*.16}% 20
-\BOOKMARK [2][-]{section*.18}{Homogeneous linear systems}{section*.16}% 21
-\BOOKMARK [2][-]{section*.19}{Inhomogeneous linear systems}{section*.16}% 22
-\BOOKMARK [0][-]{part.4}{IV Dynamical Systems}{}% 23
-\BOOKMARK [1][-]{section*.20}{Overview}{part.4}% 24
-\BOOKMARK [1][-]{section*.21}{One-Dimensional Systems}{part.4}% 25
-\BOOKMARK [2][-]{section*.22}{Fixed points in Continuous Dynamical Systems}{section*.21}% 26
-\BOOKMARK [2][-]{section*.24}{Continuous Linear stability analysis}{section*.21}% 27
-\BOOKMARK [2][-]{section*.25}{Fixed points in Discrete Dynamical Systems}{section*.21}% 28
-\BOOKMARK [2][-]{section*.26}{Discrete Linear stability analysis}{section*.21}% 29
-\BOOKMARK [2][-]{section*.27}{Bifurcations in Continous Systems}{section*.21}% 30
-\BOOKMARK [2][-]{section*.30}{Bifurcations in Discrete Systems}{section*.21}% 31
-\BOOKMARK [1][-]{section*.32}{Two-Dimensional Systems}{part.4}% 32
-\BOOKMARK [1][-]{section*.33}{Three-Dimensional Systems and Chaos}{part.4}% 33
+\BOOKMARK [0][-]{part.1}{\376\377\000I\000\040\000M\000o\000d\000e\000l\000i\000n\000g}{}% 1
+\BOOKMARK [1][-]{section*.1}{\376\377\000F\000u\000n\000d\000a\000m\000e\000n\000t\000a\000l\000s}{part.1}% 2
+\BOOKMARK [1][-]{section*.2}{\376\377\000C\000l\000a\000s\000s\000i\000f\000i\000c\000a\000t\000i\000o\000n}{part.1}% 3
+\BOOKMARK [1][-]{section*.3}{\376\377\000S\000y\000s\000t\000e\000m\000s\000\040\000o\000f\000\040\000d\000i\000f\000f\000e\000r\000e\000n\000t\000i\000a\000l\000\040\000e\000q\000u\000a\000t\000i\000o\000n\000s}{part.1}% 4
+\BOOKMARK [1][-]{section*.4}{\376\377\000S\000l\000o\000p\000e\000\040\000f\000i\000e\000l\000d}{part.1}% 5
+\BOOKMARK [1][-]{section*.5}{\376\377\000S\000o\000l\000v\000a\000b\000i\000l\000i\000t\000y}{part.1}% 6
+\BOOKMARK [0][-]{part.2}{\376\377\000I\000I\000\040\000O\000r\000d\000i\000n\000a\000r\000y\000\040\000D\000i\000f\000f\000e\000r\000e\000n\000t\000i\000a\000l\000\040\000E\000q\000u\000a\000t\000i\000o\000n\000s}{}% 7
+\BOOKMARK [1][-]{section*.6}{\376\377\000A\000n\000a\000l\000y\000t\000i\000c\000a\000l\000\040\000m\000e\000t\000h\000o\000d\000s\000\040\000f\000o\000r\000\040\000f\000i\000r\000s\000t\000-\000o\000r\000d\000e\000r\000\040\000O\000D\000E\040\031\000s}{part.2}% 8
+\BOOKMARK [2][-]{section*.7}{\376\377\000O\000v\000e\000r\000v\000i\000e\000w}{section*.6}% 9
+\BOOKMARK [2][-]{section*.8}{\376\377\000S\000e\000p\000a\000r\000a\000b\000l\000e\000\040\000O\000D\000E\040\031\000s}{section*.6}% 10
+\BOOKMARK [2][-]{section*.9}{\376\377\000E\000x\000a\000c\000t\000\040\000O\000D\000E\040\031\000s}{section*.6}% 11
+\BOOKMARK [1][-]{section*.10}{\376\377\000A\000n\000a\000l\000y\000t\000i\000c\000a\000l\000\040\000m\000e\000t\000h\000o\000d\000s\000\040\000f\000o\000r\000\040\000l\000i\000n\000e\000a\000r\000\040\000O\000D\000E\040\031\000s}{part.2}% 12
+\BOOKMARK [2][-]{section*.11}{\376\377\000O\000v\000e\000r\000v\000i\000e\000w}{section*.10}% 13
+\BOOKMARK [2][-]{section*.12}{\376\377\000F\000i\000r\000s\000t\000-\000o\000r\000d\000e\000r\000\040\000l\000i\000n\000e\000a\000r\000\040\000O\000D\000E\000'\000s}{section*.10}% 14
+\BOOKMARK [2][-]{section*.13}{\376\377\000H\000i\000g\000h\000e\000r\000-\000o\000r\000d\000e\000r\000\040\000l\000i\000n\000e\000a\000r\000\040\000O\000D\000E\000'\000s}{section*.10}% 15
+\BOOKMARK [1][-]{section*.14}{\376\377\000N\000u\000m\000e\000r\000i\000c\000a\000l\000\040\000M\000e\000t\000h\000o\000d\000s}{part.2}% 16
+\BOOKMARK [2][-]{section*.15}{\376\377\000S\000i\000n\000g\000l\000e\000-\000s\000e\000t\000p\000\040\000m\000e\000t\000h\000o\000d\000s}{section*.14}% 17
+\BOOKMARK [0][-]{part.3}{\376\377\000I\000I\000I\000\040\000S\000y\000s\000t\000e\000m\000\040\000o\000f\000\040\000D\000i\000f\000f\000e\000r\000e\000n\000t\000i\000a\000l\000\040\000E\000q\000u\000a\000t\000i\000o\000n\000s}{}% 18
+\BOOKMARK [1][-]{section*.16}{\376\377\000A\000n\000a\000l\000y\000t\000i\000c\000a\000l\000\040\000m\000e\000t\000h\000o\000d\000s\000\040\000f\000o\000r\000\040\000l\000i\000n\000e\000a\000r\000\040\000s\000y\000s\000t\000e\000m\000s}{part.3}% 19
+\BOOKMARK [2][-]{section*.17}{\376\377\000O\000v\000e\000r\000v\000i\000e\000w}{section*.16}% 20
+\BOOKMARK [2][-]{section*.18}{\376\377\000H\000o\000m\000o\000g\000e\000n\000e\000o\000u\000s\000\040\000l\000i\000n\000e\000a\000r\000\040\000s\000y\000s\000t\000e\000m\000s}{section*.16}% 21
+\BOOKMARK [2][-]{section*.19}{\376\377\000I\000n\000h\000o\000m\000o\000g\000e\000n\000e\000o\000u\000s\000\040\000l\000i\000n\000e\000a\000r\000\040\000s\000y\000s\000t\000e\000m\000s}{section*.16}% 22
+\BOOKMARK [0][-]{part.4}{\376\377\000I\000V\000\040\000D\000y\000n\000a\000m\000i\000c\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s}{}% 23
+\BOOKMARK [1][-]{section*.20}{\376\377\000O\000v\000e\000r\000v\000i\000e\000w}{part.4}% 24
+\BOOKMARK [1][-]{section*.21}{\376\377\000O\000n\000e\000-\000D\000i\000m\000e\000n\000s\000i\000o\000n\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s}{part.4}% 25
+\BOOKMARK [2][-]{section*.22}{\376\377\000F\000i\000x\000e\000d\000\040\000p\000o\000i\000n\000t\000s\000\040\000i\000n\000\040\000C\000o\000n\000t\000i\000n\000u\000o\000u\000s\000\040\000D\000y\000n\000a\000m\000i\000c\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s}{section*.21}% 26
+\BOOKMARK [2][-]{section*.24}{\376\377\000C\000o\000n\000t\000i\000n\000u\000o\000u\000s\000\040\000L\000i\000n\000e\000a\000r\000\040\000s\000t\000a\000b\000i\000l\000i\000t\000y\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{section*.21}% 27
+\BOOKMARK [2][-]{section*.25}{\376\377\000F\000i\000x\000e\000d\000\040\000p\000o\000i\000n\000t\000s\000\040\000i\000n\000\040\000D\000i\000s\000c\000r\000e\000t\000e\000\040\000D\000y\000n\000a\000m\000i\000c\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s}{section*.21}% 28
+\BOOKMARK [2][-]{section*.26}{\376\377\000D\000i\000s\000c\000r\000e\000t\000e\000\040\000L\000i\000n\000e\000a\000r\000\040\000s\000t\000a\000b\000i\000l\000i\000t\000y\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{section*.21}% 29
+\BOOKMARK [2][-]{section*.27}{\376\377\000B\000i\000f\000u\000r\000c\000a\000t\000i\000o\000n\000s\000\040\000i\000n\000\040\000C\000o\000n\000t\000i\000n\000o\000u\000s\000\040\000S\000y\000s\000t\000e\000m\000s}{section*.21}% 30
+\BOOKMARK [2][-]{section*.30}{\376\377\000B\000i\000f\000u\000r\000c\000a\000t\000i\000o\000n\000s\000\040\000i\000n\000\040\000D\000i\000s\000c\000r\000e\000t\000e\000\040\000S\000y\000s\000t\000e\000m\000s}{section*.21}% 31
+\BOOKMARK [1][-]{section*.32}{\376\377\000T\000w\000o\000-\000D\000i\000m\000e\000n\000s\000i\000o\000n\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s}{part.4}% 32
+\BOOKMARK [1][-]{section*.33}{\376\377\000T\000h\000r\000e\000e\000-\000D\000i\000m\000e\000n\000s\000i\000o\000n\000a\000l\000\040\000S\000y\000s\000t\000e\000m\000s\000\040\000a\000n\000d\000\040\000C\000h\000a\000o\000s}{part.4}% 33
