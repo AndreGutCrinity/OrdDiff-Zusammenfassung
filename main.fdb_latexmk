@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1637577775 "main.tex" "main.pdf" "main" 1637577778
+["pdflatex"] 1637595779 "main.tex" "main.pdf" "main" 1637595782
   "1_1_fundamentals.tex" 1635783893 526 e9814e8615b4f07665f5eb13afd2893a ""
   "1_3_classification.tex" 1635926573 2390 16acdef6482447d270422936da10fee4 ""
   "1_4_systems_of_differential_equations.tex" 1635926778 2225 f55afac8a40200532108c1d5e2fcaca5 ""
@@ -11,7 +11,7 @@
   "3_1_Analytical_methods_for_linear_systems.tex" 1636484375 12693 eb0479e884ffd908c258dbdc3e81d504 ""
   "4_1_overview.tex" 1636360132 1170 221b6fd22f5b5c0767add39a9bf858b1 ""
   "4_2_one-dimensional_systems.tex" 1636987924 7917 8e49c6fc135b0d1f74f17236558f92f7 ""
-  "4_3_two-dimensional_systems.tex" 1637577773 5158 ac23d3c1e4ef977d47d2a6aec4d96fd8 ""
+  "4_3_two-dimensional_systems.tex" 1637595777 7003 d8321fdc773094a1989589c777d01980 ""
   "4_4_three-dimensional_systems_and_chaos.tex" 1636359008 109 842da22f9ec8f812ecacbf29ac53eb1e ""
   "4_5_discrete_dynamical_systems.tex" 1636375264 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Pics/1.5.1.jpg" 1635786861 27581 17cf8d6c39da95dc7ffc4a1a9162a472 ""
@@ -79,6 +79,7 @@
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1600239625 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1600239625 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1600239625 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1600239625 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1600239625 32587 65067f817f408bc71a7312f3d9828a9b ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1600239625 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1600239625 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
@@ -183,11 +184,11 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1600244289 2444767 bc6ebe522825b804048e65ebb71f0a13 ""
   "c:/texlive/2020/texmf.cnf" 1600244115 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "config.tex" 1635767520 3590 a4ef606fda5c165e7df41427d8ee5617 ""
-  "main.aux" 1637577778 4653 7cbc12a2d907e6f4b422cb29091af577 "pdflatex"
-  "main.out" 1637577778 2462 6de3eab1e3574359a2625632cf35418b "pdflatex"
+  "main.aux" 1637595782 4653 7cbc12a2d907e6f4b422cb29091af577 "pdflatex"
+  "main.out" 1637595782 2462 6de3eab1e3574359a2625632cf35418b "pdflatex"
   "main.tex" 1636375287 1169 83163d2c1913e5123844d1fb0f52ff4e ""
   (generated)
-  "main.log"
   "main.out"
-  "main.pdf"
   "main.aux"
+  "main.log"
+  "main.pdf"

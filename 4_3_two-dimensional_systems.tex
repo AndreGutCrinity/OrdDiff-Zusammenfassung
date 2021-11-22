@@ -79,11 +79,8 @@ and
 \begin{equation}
   \Delta = \lambda_1 \lambda_2, \;\;\; \tau = \lambda_1 + \lambda_2
 \end{equation}
-% - $\Delta > 0$ for all stable/unstable spirals and nodes, $\Delta < 0$ for saddle points\\
-% - In the case $\Delta > 0$, the stable resp. unstable cases can be distinguished by $\tau < 0$ resp. $\tau > 0$\\
-% - The distinction between nodes and spirals depends on the sign of $\tau^2 - 4\Delta$\\
-% - $\tau = 0$: center stable\\
 
+In the following figure the classification of fixed points based on the properties of $\tau$ and $\Delta$ is shown graphically.
 \begin{figure}[H]
   \centering
   \includegraphics[width=.7\linewidth]{Pics/4.19.png}
@@ -113,14 +110,23 @@ spirals, etc.), the fixed point $\textbf{x}^* = 0$ of a dynamical system is
 
 \subsection{Nonlinear Systems}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
-The behaviour of nonlinear systems can be investigated by analyzing the corresponding linear system near the fixed point $(x_1^*, x_2^*)$ and by then classifying these fixpoints according to the scheme for fixed points of linear systems.
+In order to use the analysis of linear systems, we linearize the nonlinear system near the fixed point $x^*$. To this end, we consider small perturbations $u = x_1 - x^*_1, \; v = x_2 - x^*_2$ and deduce equations for $u$ and $v$ by expanding $f_1$ and $f_2$ into Taylor series. The temporal evolution of $(u, v)$ is thus given by
+\begin{equation}
+  \begin{pmatrix} \dot{u} \\ \dot{v} \end{pmatrix} =
+  \begin{pmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\
+                  \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_1}
+  \end{pmatrix}_{(x_1^*, x_2^*)} \cdot
+  \begin{pmatrix} u \\ v \end{pmatrix} + \text{higher-order terms}
+\end{equation}
+The matrix
+\begin{equation}
+  A =   \begin{pmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\
+                        \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_1}
+        \end{pmatrix}_{(x_1^*, x_2^*)}
+\end{equation}
+is the Jacobi matrix of the system near the fixed point $\textbf{x}^* = (x_1^*, x_2^*)$.\\
 
-
-find fixpoints
-calculate jacobi-matrix
-insert fixpoitns and analyse matrix
-
-Example:
+Example: Consider the system
 \begin{equation}
   \begin{split}
     \dot{x} &= -x + x^3\\
@@ -133,16 +139,25 @@ fixed points are:
 \end{equation}
 The Jacobi matrix of the system is
 \begin{equation}
-  A = \begin{vmatrix}
+  A = \begin{pmatrix}
       -1+3x^2 & 0 \\
       0 & -2
-  \end{vmatrix}
+  \end{pmatrix}
 \end{equation}
 The eigenvalues of $A$ are:
 \begin{equation}
-  P_1: \lambda_1 = -1, \lambda_2 = -2; \;\;\; P_2, P_3: \lambda_{1,2} = \pm 2
+  P_1: \lambda_1 = -1, \lambda_2 = -2; \;\;\;\;\; P_2, P_3: \lambda_{1,2} = \pm 2
 \end{equation}
-Therefore $P_1$ is a stable node, and $P_2$ and $P_3$ are saddle points of the linearized system.
+Therefore $P_1$ is a stable node, and $P_2$ and $P_3$ are saddle points of the linearized system.\\
+
+Intuitively: The linearization leads to the correct classification of the fixed points of nonlinear systems, if the fixed point type is described by an inequality and not an equality.\\
+
+\textbf{Hartman-Grobman theorem}\\
+If both eigenvalues $\lambda_1, \lambda_2$ of the corresponding system matrix $A$ fulfill the condition $\textup{Re}(\lambda_i) \neq 0$, then the behaviour of the nonlinear system is for sufficiently small perturbations topologically equivalent to the behaviour of the linearized system.\\
+
+\textbf{Classification of fixed points into robust and marginal cases}\\
+Robust: Nodes, spirals, saddle points\\
+Marginal: centers/elliptic fixed points, degenerate cases
 
 \subsection{Bifurications}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
