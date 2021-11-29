@@ -156,8 +156,65 @@ Intuitively: The linearization leads to the correct classification of the fixed 
 If both eigenvalues $\lambda_1, \lambda_2$ of the corresponding system matrix $A$ fulfill the condition $\textup{Re}(\lambda_i) \neq 0$, then the behaviour of the nonlinear system is for sufficiently small perturbations topologically equivalent to the behaviour of the linearized system.\\
 
 \textbf{Classification of fixed points into robust and marginal cases}\\
-Robust: Nodes, spirals, saddle points\\
-Marginal: centers/elliptic fixed points, degenerate cases
+\emph{Robust}: Nodes, spirals, saddle points\\
+\emph{Marginal}: centers/elliptic fixed points, degenerate cases
+
+\subsection{Limit cycles}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+If a fixed point is of the type ``center'', it is surrounded by nothing but closed trajectories. If there is a single isolated trajectory in the system, one speaks of a limit cycle.\\
+A limit cycle of a dynamical system is an isolated closed trajectory of the system.
+\begin{table}[H]
+  \setlength{\tabcolsep}{0.2em}
+  \footnotesize
+  \begin{tabular}{p{\linewidth / 2 - 0.5em}@{\hskip 1em}p{\linewidth / 2 - 0.5em}}
+    \includegraphics[width=\linewidth]{Pics/4.16.png} &
+    \includegraphics[width=\linewidth]{Pics/4.34.png}\\
+    Non-isolated closed orbits & Isolated closed orbits, limit cycle
+  \end{tabular}
+\end{table}
+Limit cycles are important structuring elements of the phase space of a 2D dynamical system, in addition to fixed points\\
+
+\textbf{Methods for detection (Poincaré-Bendixson theorem)}\\
+Let $\dot{\mathbf{x}} = f(x)$ be a dynamical system in a bounded and closed subset $G$ of $\mathbb{R}^2$. If the system does not have a fixed point in $G$ and if there exists a trajectory $C$, which stays in $G$ for all $t \geq t_0$, then $C$ is either a closed trajectory, or it converges to a closed trajectory.\\
+
+If a trajectory stay confined to a bounded closed region without fixed point, it has to converge to a closed trajectory, if it is not already a closed trajectory itself. In particular, a chaotic behaviour is impossible! Note that the result holds only for $n = 2$.\\
+
+Example: Consider the dynamical system:
+\begin{equation}
+  \begin{split}
+    \dot{x} &= x + y - x(x^2 + y^2)\\
+    \dot{y} &= -x + y -y(x^2 + y^2)
+  \end{split}
+\end{equation}
+
+In order to apply the \emph{Poincaré-Bendixson theorem} we choose
+\begin{equation}
+  G = \left{(x, y), \in \mathbb{R}^2|0.5 \leq \sqrt{x^2 + y^2}\leq2\right}.
+\end{equation}
+i.e. a torus with inner radius of 0.5 and an outer radius of 2. The system has no fixed point in $G$ since the fixed point lays at the origin, which is not contained in $G$.\\
+If the equations are formulated in polar coordinates one gets
+\begin{equation}
+  \begin{split}
+    \dot{r} &= r(1-r^2)\\
+    \dot{\theta} &= -1
+  \end{split}
+\end{equation}
+
+For $r = 0.5$ we have $\dot{r}(t) > 0$, whereas for $r = 2$ have the reverse estimate $\dot{r}(t) < 0$. Therefore $r(t)$ \emph{increases} for a trajectory of the system at the inner limit of the torus $G$, whereas $r(t)$ \emph{decreases} for a trajectory at the outer limit of the region. This implies that a trajectory starting in $G$ must stay in $G$ for all times. The conditions for applying the \emph{Poincaré-Bendixson theorem} are thus fulfilled, and it follows from the theorem that the system has a limit cycle.
 
 \subsection{Bifurications}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+A bifurcation occurs in the system $\dot{x} = f(x, r)$, if the phase portrait changes its topological structure as the parameter $r$ is varied.\\
+
+\begin{itemize}
+  \item Importance of bifurcations: By knowing the bifurcations of the system under considerations, on can produce/avoid desired/undesired properties of the system by varying the parameters of the system.
+  \item All bifurcations occuring in 1D systems also occur in 2D systems
+  \item New type of bifurcation which occurs only in systems of dimension $n \leq 2$: Hopf bifurcation: Creation/deletion of a limit cycle by varying a system parameter. This describes the ways in which oscillations in a system can be turned on or of.
+\end{itemize}
+
+\textbf{Hopf Bifurication}\\
+If in a linear stability analysis $\Delta > 0$ (the fixed point is a center) it is possible for a Hopf bifurcation to occur.
+\begin{itemize}
+  \item if $\tau < 0$, the fixed point is stable and thus, no limit cycle can occur.
+  \item if $\tau > 0$, the fixed point is unstable and thus, limit cycles can occur. This has to be hecked with the \emph{Poincaré-Bendixson theorem}.
+\end{itemize}
