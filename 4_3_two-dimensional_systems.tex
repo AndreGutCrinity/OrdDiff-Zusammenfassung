@@ -15,7 +15,6 @@ resp. in vector notation
 \end{equation}
 
 
-
 \textbf{Definitions}\\
 A point $x^* \in \mathbb{R}^n$ is a \emph{fixed point} of the dynamical system $\dot{\mathbf{x}} =  \mathbf{f}(\mathbf{x})$, if
 \begin{equation}
@@ -176,10 +175,9 @@ Limit cycles are important structuring elements of the phase space of a 2D dynam
 
 \textbf{Methods for detection (Poincaré-Bendixson theorem)}\\
 Let $\dot{\mathbf{x}} = f(x)$ be a dynamical system in a bounded and closed subset $G$ of $\mathbb{R}^2$. If the system does not have a fixed point in $G$ and if there exists a trajectory $C$, which stays in $G$ for all $t \geq t_0$, then $C$ is either a closed trajectory, or it converges to a closed trajectory.\\
-
 If a trajectory stay confined to a bounded closed region without fixed point, it has to converge to a closed trajectory, if it is not already a closed trajectory itself. In particular, a chaotic behaviour is impossible! Note that the result holds only for $n = 2$.\\
 
-Example: Consider the dynamical system:
+Example: Consider the dynamical system: (image on the top right)
 \begin{equation}
   \begin{split}
     \dot{x} &= x + y - x(x^2 + y^2)\\
@@ -187,9 +185,9 @@ Example: Consider the dynamical system:
   \end{split}
 \end{equation}
 
-In order to apply the \emph{Poincaré-Bendixson theorem} we choose
+In order to apply the \emph{Poincaré-Bendixson} theorem we choose
 \begin{equation}
-  G = \left{(x, y), \in \mathbb{R}^2|0.5 \leq \sqrt{x^2 + y^2}\leq2\right}.
+  G = \left \{(x, y), \in \mathbb{R}^2|0.5 \leq \sqrt{x^2 + y^2}\leq 2 \right \}.
 \end{equation}
 i.e. a torus with inner radius of 0.5 and an outer radius of 2. The system has no fixed point in $G$ since the fixed point lays at the origin, which is not contained in $G$.\\
 If the equations are formulated in polar coordinates one gets
@@ -200,19 +198,17 @@ If the equations are formulated in polar coordinates one gets
   \end{split}
 \end{equation}
 
-For $r = 0.5$ we have $\dot{r}(t) > 0$, whereas for $r = 2$ have the reverse estimate $\dot{r}(t) < 0$. Therefore $r(t)$ \emph{increases} for a trajectory of the system at the inner limit of the torus $G$, whereas $r(t)$ \emph{decreases} for a trajectory at the outer limit of the region. This implies that a trajectory starting in $G$ must stay in $G$ for all times. The conditions for applying the \emph{Poincaré-Bendixson theorem} are thus fulfilled, and it follows from the theorem that the system has a limit cycle.
+For $r = 0.5$ we have $\dot{r}(t) > 0$, whereas for $r = 2$ have the reverse estimate $\dot{r}(t) < 0$. Therefore $r(t)$ \emph{increases} for a trajectory of the system at the inner limit of the torus $G$, whereas $r(t)$ \emph{decreases} for a trajectory at the outer limit of the region. This implies that a trajectory starting in $G$ must stay in $G$ for all times. The conditions for applying the \emph{Poincaré-Bendixson} theorem are thus fulfilled, and it follows from the theorem that the system has a limit cycle.
 
 \subsection{Bifurications}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
 A bifurcation occurs in the system $\dot{x} = f(x, r)$, if the phase portrait changes its topological structure as the parameter $r$ is varied.\\
 
-\begin{itemize}
-  \item Importance of bifurcations: By knowing the bifurcations of the system under considerations, on can produce/avoid desired/undesired properties of the system by varying the parameters of the system.
-  \item All bifurcations occuring in 1D systems also occur in 2D systems
-  \item New type of bifurcation which occurs only in systems of dimension $n \leq 2$: Hopf bifurcation: Creation/deletion of a limit cycle by varying a system parameter. This describes the ways in which oscillations in a system can be turned on or of.
-\end{itemize}
+All bifurcations occuring in 1D systems also occur in 2D systems.\\
+In addition, there exists a new type of bifurcation which occurs only in systems of dimension $n \leq 2$: the Hopf bifurcation.
 
 \textbf{Hopf Bifurication}\\
+Creation/deletion of a limit cycle by varying a system parameter. This describes the ways in which oscillations in a system can be turned on or of.\\
 If in a linear stability analysis $\Delta > 0$ (the fixed point is a center) it is possible for a Hopf bifurcation to occur.
 \begin{itemize}
   \item if $\tau < 0$, the fixed point is stable and thus, no limit cycle can occur.
