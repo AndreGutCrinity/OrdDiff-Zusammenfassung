@@ -1,0 +1,16 @@
+\section{Discrete Dynamical Systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDickeDick}
+
+\subsection{Fixed points in Continuous Dynamical Systems}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+The Lyapunov exponent $\lambda$ of the discrete dynamical system $x_{n+1} = f(x_n)$ for an orbit starting at $x_0$ is
+\begin{equation}
+  \lambda = \lim_{n \to \infty}\left(\frac{1}{n} \sum_{i=0}^{n-1} \textup{ln}|f'(x_i)|\right)
+\end{equation}
+
+Significance of the sign of $\lambda$:
+\begin{itemize}
+  \item $\lambda > 0$: The system behaves chaotically
+  \item $\lambda < 0$: The system does not behave chaotically
+  \item $\lambda = 0$: The system is at a bifurcation point
+\end{itemize}
