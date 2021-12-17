@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  13 DEC 2021 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  17 DEC 2021 12:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1013,15 +1013,14 @@ File: Pics/4.58.png Graphic file (type png)
 <use Pics/4.58.png>
 Package pdftex.def Info: Pics/4.58.png  used on input line 92.
 (pdftex.def)             Requested size: 185.71002pt x 112.51476pt.
-) (./4_5_discrete_dynamical_systems.tex)
+) (./4_5_discrete_dynamical_systems.tex) [8 <./Pics/4.47.png> <./Pics/4.54.png> <./Pics/4.58.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
- [8 <./Pics/4.47.png> <./Pics/4.54.png> <./Pics/4.58.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF4FD65DAFA9B820F1014D5AFFA26970;2881.
+(rerunfilecheck)             Checksum: A48CC46BFE5EC0EBC3B7700D2C4FD32D;2854.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1032,7 +1031,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
 Here is how much of TeX's memory you used:
  14277 strings out of 480876
  252334 string characters out of 5911487
- 721482 words of memory out of 5000000
+ 723482 words of memory out of 5000000
  29392 multiletter control sequences out of 15000+600000
  557538 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1040,7 +1039,7 @@ Here is how much of TeX's memory you used:
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-
 super/sfrm0500.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb>
-Output written on main.pdf (8 pages, 3398988 bytes).
+Output written on main.pdf (8 pages, 3399319 bytes).
 PDF statistics:
  548 PDF objects out of 1000 (max. 8388607)
  475 compressed objects within 5 object streams
