@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1639739048 "main.tex" "main.pdf" "main" 1639739063
+["pdflatex"] 1639996973 "main.tex" "main.pdf" "main" 1639996977
   "1_1_fundamentals.tex" 1635783893 526 e9814e8615b4f07665f5eb13afd2893a ""
   "1_3_classification.tex" 1635926573 2390 16acdef6482447d270422936da10fee4 ""
   "1_4_systems_of_differential_equations.tex" 1635926778 2225 f55afac8a40200532108c1d5e2fcaca5 ""
@@ -13,7 +13,7 @@
   "4_2_one-dimensional_systems.tex" 1636987924 7917 8e49c6fc135b0d1f74f17236558f92f7 ""
   "4_3_two-dimensional_systems.tex" 1638798748 10388 a0cb31c22fd9a34d74db519bf6bd13d2 ""
   "4_4_three-dimensional_systems_and_chaos.tex" 1639387745 4588 baa5fb2705de45b50524e4cfb8461789 ""
-  "4_5_discrete_dynamical_systems.tex" 1639391126 693 916b76b0453d917d493fbb98ff279ade ""
+  "4_5_discrete_dynamical_systems.tex" 1639996967 1677 f5225834b9c5d29114c5cd1dbcbb96f7 ""
   "Pics/1.5.1.jpg" 1635786861 27581 17cf8d6c39da95dc7ffc4a1a9162a472 ""
   "Pics/1.5.2.jpg" 1635787179 22363 89d949cd463bc050fdf9ba5d1a967afb ""
   "Pics/4.16.png" 1638174003 226490 3dcd1a89586df4f1ec81eecc08fdfd27 ""
@@ -192,11 +192,11 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1600244289 2444767 bc6ebe522825b804048e65ebb71f0a13 ""
   "c:/texlive/2020/texmf.cnf" 1600244115 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "config.tex" 1635767520 3590 a4ef606fda5c165e7df41427d8ee5617 ""
-  "main.aux" 1639739052 5273 09b3ff6ff6fe4c30658a0007d937a7c5 "pdflatex"
-  "main.out" 1639739052 2854 a48cc46bfe5ec0ebc3b7700d2c4fd32d "pdflatex"
+  "main.aux" 1639996976 5475 a45ddf1656a8de749403d4e469b4fe72 "pdflatex"
+  "main.out" 1639996976 2980 fc15d0133dc7a798007fc568ad733814 "pdflatex"
   "main.tex" 1638172902 1169 83163d2c1913e5123844d1fb0f52ff4e ""
   (generated)
+  "main.out"
   "main.aux"
   "main.pdf"
-  "main.out"
   "main.log"
