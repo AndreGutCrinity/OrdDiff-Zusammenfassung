@@ -25,6 +25,23 @@ An ODE of \emph{n}-th order is equivalent to a system of first-order ODE's.
   \end{matrix}
 \end{equation}
 
+\textbf{Example: Higher-order ODE to system of first-order ODE's}\\
+We want to rewrite the ODE
+\begin{equation}
+  y^4(x) + \textup{sin}(y'') + e^{x^2 + y} = 0
+\end{equation}
+as a first order system. The solution is
+\begin{equation}
+  \begin{split}
+    y_1' &= y_2\\
+    y_2' &= y_3\\
+    y_3' &= y_4 \\
+    y_4' &= y^4(x) + \textup{sin}(y'') + e^{x^2 + y} = 0
+  \end{split}
+\end{equation}
+Where $y_1 = y,\; y_2 = y',\; y_3 = y'',\; y_4 = y'''$.\\
+To make this system autonomous we introduce $y_0 = x$ and add $y_0' = 1$ to the system above.\\
+
 \textbf{Example: 2nd-order ODE to system of first-order ODE's}\\
 We want to rewrite the following 2$nd$ order ODE into a system of first-order ODE's.
 \begin{equation}

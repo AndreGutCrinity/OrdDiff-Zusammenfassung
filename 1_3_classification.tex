@@ -14,6 +14,16 @@ where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions. Or in other word
 A lienar ODE is \emph{homogeneous}, if $g(x) = 0$ for all $x$; otherwise the ODE is \emph{inhomogeneous}, and $g(x)$ is the \emph{inhomogeneity} or \emph{source} term.\\
 The distinction between \emph{homogeneous} and \emph{inhomogeneous} ODEs can also be understood physically: Homogeneous ODEs describe systems which act without external input, whereas systems which are driven by an external force are generally described by inhomogeneous ODEs.\\
 
+\textbf{Exactness}\\
+A first-order ODE of the form
+\begin{equation}
+  M(x, y) + N(x, y) \cdot y'(x) = 0
+\end{equation}
+is called \emph{exact}, if the partial derivatives of $M(x, y)$ and $N(x, y)$ satisfy the condition
+\begin{equation}
+  M_y(x, y) = N_x(x, y).
+\end{equation}
+
 \textbf{Constant coefficient}\\
 A linear ODE has \emph{constant coefficients}, if it is of the form
 \begin{equation}
