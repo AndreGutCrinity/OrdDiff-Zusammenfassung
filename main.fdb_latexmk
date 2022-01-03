@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1641205095 "main.tex" "main.pdf" "main" 1641205099
+["pdflatex"] 1641206452 "main.tex" "main.pdf" "main" 1641206457
   "1_1_fundamentals.tex" 1641194805 851 fb21d846d9170cb40f59ef32ea5c63d1 ""
   "1_3_classification.tex" 1641203124 3013 7d0cb6e525abbacaf26fddd4dfce085b ""
-  "1_4_systems_of_differential_equations.tex" 1641205092 2770 1a5ffa56dc8793fd21639ac3bdf6a4d6 ""
+  "1_4_systems_of_differential_equations.tex" 1641206449 3591 e31089605fb57bbc01406303435c3f3c ""
   "1_5_slope_field.tex" 1641195605 945 11ed23bc3a2a33d00373178fe1fccd7d ""
   "2_1_analytical_methods.tex" 1641201020 1392 797217a641a3d5a3975f5c2297334b82 ""
   "2_2_analytical_methods_for_linear.tex" 1641201066 9287 4793e921511fd67a53fca394d924ba44 ""
@@ -191,11 +191,11 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1600244289 2444767 bc6ebe522825b804048e65ebb71f0a13 ""
   "c:/texlive/2020/texmf.cnf" 1600244115 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "config.tex" 1635767520 3590 a4ef606fda5c165e7df41427d8ee5617 ""
-  "main.aux" 1641205099 5380 319a73710fbf88988dae4bbf87993a38 "pdflatex"
-  "main.out" 1641205099 2922 ebaa2bb274e48810e9d05106ab227af0 "pdflatex"
+  "main.aux" 1641206456 5380 351238559a2f95188344b451b3359cf3 "pdflatex"
+  "main.out" 1641206456 2922 ebaa2bb274e48810e9d05106ab227af0 "pdflatex"
   "main.tex" 1641195715 1171 ef84a47362a2bb5f27a68c590f58831d ""
   (generated)
-  "main.out"
   "main.pdf"
-  "main.aux"
+  "main.out"
   "main.log"
+  "main.aux"

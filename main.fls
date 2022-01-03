@@ -252,9 +252,9 @@ INPUT ./Pics/1.5.1.jpg
 INPUT Pics/1.5.2.jpg
 INPUT ./Pics/1.5.2.jpg
 INPUT ./Pics/1.5.2.jpg
-INPUT 2_1_analytical_methods.tex
-INPUT 2_1_analytical_methods.tex
 INPUT c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT 2_1_analytical_methods.tex
+INPUT 2_1_analytical_methods.tex
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT 2_2_analytical_methods_for_linear.tex
 INPUT 2_2_analytical_methods_for_linear.tex

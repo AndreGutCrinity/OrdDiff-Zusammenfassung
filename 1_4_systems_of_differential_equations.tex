@@ -28,7 +28,7 @@ An ODE of \emph{n}-th order is equivalent to a system of first-order ODE's.
 \textbf{Example: Higher-order ODE to system of first-order ODE's}\\
 We want to rewrite the ODE
 \begin{equation}
-  y^4(x) + \textup{sin}(y'') + e^{x^2 + y} = 0
+  y^4 + \textup{sin}(y'') + e^{x^2 + y} = 0
 \end{equation}
 as a first order system. The solution is
 \begin{equation}
@@ -36,7 +36,7 @@ as a first order system. The solution is
     y_1' &= y_2\\
     y_2' &= y_3\\
     y_3' &= y_4 \\
-    y_4' &= y^4(x) + \textup{sin}(y'') + e^{x^2 + y} = 0
+    y_4' &= y^4 + \textup{sin}(y'') + e^{x^2 + y} = 0
   \end{split}
 \end{equation}
 Where $y_1 = y,\; y_2 = y',\; y_3 = y'',\; y_4 = y'''$.\\
@@ -49,7 +49,7 @@ We want to rewrite the following 2$nd$ order ODE into a system of first-order OD
 \end{equation}
 If we introduce the vector-valued function
 \begin{equation}
-  \textup{y} = \begin{pmatrix} y_1 \\ y_2 \end{pmatrix} =
+  \textbf{y} = \begin{pmatrix} y_1 \\ y_2 \end{pmatrix} =
                 \begin{pmatrix} x \\ \dot{x} \end{pmatrix} \;\;\;\;  \Rightarrow \;\;\;\;
                 \dot{\textup{y}} =
                 \begin{pmatrix} \dot{y_1} \\ \dot{y_2} \end{pmatrix} =
@@ -58,12 +58,31 @@ If we introduce the vector-valued function
 rewriting:
 \begin{equation}
   \begin{split}
-      \dot{\textup{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
+      \dot{\textbf{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
                           \begin{pmatrix} \dot{x} \\ -2\delta\dot{x}(t) - \omega_0^2x(t) + f(t) \end{pmatrix}\\
-      \dot{\textup{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
+      \dot{\textbf{y}} =& \begin{pmatrix} \dot{x} \\ \ddot{x} \end{pmatrix} =
                           \begin{pmatrix} 0 & 1 \\ -\omega_0^2 & -2\delta \end{pmatrix}
                           \begin{pmatrix} x\\ \dot{x} \end{pmatrix} +
                           \begin{pmatrix} 0 \\ f(t) \end{pmatrix}\\
-      \dot{\textup{y}} =& \textup{A}\textbf{y} + \mathbf{b}
+      \dot{\textbf{y}} =& \textup{A}\textbf{y} + \mathbf{b}
+  \end{split}
+\end{equation}
+
+\textbf{Example: Coupled second order syste to first-oder ODE's}\\
+Rewrite the second order system (coupled pendulums)
+\begin{equation}
+  \begin{split}
+    \ddot{\varphi}_1(t) = -\beta \varphi_1 + \alpha \cdot (\varphi_2 - \varphi_1)\\
+    \ddot{\varphi}_2(t) = -\beta \varphi_2 + \alpha \cdot (\varphi_1 - \varphi_2)
+  \end{split}
+\end{equation}
+as a system of first order ODE.\\
+With the new variables $\varphi_3 = \dot{\varphi}_1,\; \varphi_4 = \dot{\varphi}_2$ the system becomes
+\begin{equation}
+  \begin{split}
+    \dot{\varphi}_1(t) &= \varphi_3\\
+    \dot{\varphi}_2(t) &= \varphi_4\\
+    \dot{\varphi}_3(t) &= -\beta \varphi_1 + \alpha \cdot (\varphi_2 - \varphi_1)\\
+    \dot{\varphi}_4(t) &= -\beta \varphi_2 + \alpha \cdot (\varphi_1 - \varphi_2)
   \end{split}
 \end{equation}
