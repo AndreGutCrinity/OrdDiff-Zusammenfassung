@@ -4,7 +4,7 @@
 Differential equations can be classified according to various criteria. Besides the order of an ODE we are also interested in whether an ODE is linear, homogeneous, has constant coefficient, is separable or autonomous.\\
 
 \textbf{Linearity}\\
-An \emph{n-th} order ODE is \emph{linear}, if it is of the form:
+An $n$-th order ODE is \emph{linear}, if it is of the form
 \begin{equation}
   a_n(x) \cdot y^{(n)} + ... + a_1(x) \cdot y' + a_0(x) \cdot y = g(x)
 \end{equation}
@@ -12,6 +12,7 @@ where $a_n(x), ..., a_1(x), a_0(x)$ are $g(x)$ fixed functions. Or in other word
 
 \textbf{Homogenity}\\
 A lienar ODE is \emph{homogeneous}, if $g(x) = 0$ for all $x$; otherwise the ODE is \emph{inhomogeneous}, and $g(x)$ is the \emph{inhomogeneity} or \emph{source} term.\\
+The distinction between \emph{homogeneous} and \emph{inhomogeneous} ODEs can also be understood physically: Homogeneous ODEs describe systems which act without external input, whereas systems which are driven by an external force are generally described by inhomogeneous ODEs.\\
 
 \textbf{Constant coefficient}\\
 A linear ODE has \emph{constant coefficients}, if it is of the form
@@ -25,12 +26,14 @@ The ODE is \emph{separable}, if $F(x, y)$ can be written as a product of a $x$- 
 \begin{equation}
   y' = g(x) \cdot h(y)
 \end{equation}
+for some functions $g(x)$ and $h(y)$.\\
 
 \textbf{Autonomity}\\
-The ODE (1.28) is \emph{autonomous}, if $F(x, y)$ only depends on $y$, i.e. if the ODE is of the form
+An ODE is \emph{autonomous}, if $F(x, y)$ only depends on $y$, i.e. if the ODE is of the form
 \begin{equation}
   y' = h(y)
 \end{equation}
+for some function $h(y)$.\\
 Every autonomous ODE is separable with $g(x) = 1$.\\
 
 \textbf{Examples}\\

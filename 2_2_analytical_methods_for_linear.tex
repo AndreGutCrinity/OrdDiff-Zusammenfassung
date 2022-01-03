@@ -23,7 +23,7 @@ We solve the ODE
 \begin{equation}
   y' + ay = b
 \end{equation}
-- To determine $y_h$, we integrate the homogeneous ODE
+To determine $y_h$, we integrate the homogeneous ODE
 \begin{equation}
   y' + ay = 0
 \end{equation}
@@ -31,7 +31,7 @@ by separation of variables we obtain the solution
 \begin{equation}
   y_h = C \cdot e^{-ax}, \;\; C \in \mathbb{R}.
 \end{equation}
-- For finding $y_s$ we choose the ansatz in the form of the source term. In this case the source term is constant, $g(x) = b$. Therefore we assume that the special solution $y_s$ is constant as well, i.e. we make an ansatz $y_s = c$. We plug this ansatz into the inhomogeneous ODE and obtain the special solution $y_s$.
+For finding $y_s$ we choose the ansatz in the form of the source term. In this case the source term is constant, $g(x) = b$. Therefore we assume that the special solution $y_s$ is constant as well, i.e. we make an ansatz $y_s = c$. We plug this ansatz into the inhomogeneous ODE and obtain the special solution $y_s$.
 \begin{equation}
   y_s'+ay_s = b \;\;\; \Rightarrow \;\;\; y_s = \frac{a}{b}
 \end{equation}
@@ -74,14 +74,14 @@ As an example we want to solve the inhomogeneous linear ODE
 \begin{equation}
   3y' + 5y = \color{violet} 7e^{\frac{1}{3}x} \color{black}.
 \end{equation}
-- We first find the homogeneous solution $y_h$ by separation of variables.
+We first find the homogeneous solution $y_h$ by separation of variables.
 \begin{equation}
   \frac{1}{y}\textup{d}y = -\frac{5}{3}x \; \textup{d}x
   \;\;\; \Rightarrow \;\;\;
   y_h = \color{blue} e^{\frac{5}{3}x} \cdot K \color{black}
 \end{equation}
 
-- Next we calculate the ansatz and its derivative
+Next we calculate the ansatz and its derivative
 \begin{equation}
   \begin{split}
       y_s =& \color{blue} e^{-\frac{5}{3}x} \cdot K(x) \color{black}\\
@@ -89,27 +89,27 @@ As an example we want to solve the inhomogeneous linear ODE
   \end{split}
 \end{equation}
 
-- The ansatz is then pluged into the inhomogeneous ODE
+The ansatz is then pluged into the inhomogeneous ODE
 \begin{equation}
   3\left(\color{red} K(x)' e^{-\frac{5}{3}x} + K(x) \cdot -\frac{5}{3} e^{-\frac{5}{3}x} \color{black}\right) +
   5\left(\color{blue} e^{-\frac{5}{3}x}\cdot K(x) \color{black}\right) =
   \color{violet} 7e^{\frac{1}{3}x} \color{black}
 \end{equation}
-- We solve for $K(x)'$ ($K(x)$ usually dissapears)
+We solve for $K(x)'$ ($K(x)$ usually dissapears)
 \begin{equation}
   3 \cdot \color{red} K(x)' e^{-\frac{5}{3}x} \color{black} = \color{violet} 7e^{\frac{1}{3}x} \color{black}
   \;\;\;\Rightarrow \;\;\;
   K(x)' = \frac{7}{3}e^{\frac{1}{3}x + \frac{5}{3}x} = \frac{7}{3}e^{2x}
 \end{equation}
-- We integrate and find $K(x)$
+We integrate and find $K(x)$
 \begin{equation}
   K(x) = \frac{7}{6}e^{2x}
 \end{equation}
-- Plugin $K(x)$ into the ansatz we get the special solution $y_s$
+Plugin $K(x)$ into the ansatz we get the special solution $y_s$
 \begin{equation}
   y_s = e^{-\frac{5}{3}x} \cdot \frac{7}{6}e^{2x} = \frac{7}{6}e^{\frac{1}{3}x}
 \end{equation}
-- The solution $y_h + y_s$ is then
+The solution $y_h + y_s$ is then
 \begin{equation}
   y = K \cdot e^{-\frac{5}{3}x} + \frac{7}{6}e^{\frac{1}{3}x}
 \end{equation}

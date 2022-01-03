@@ -3,7 +3,7 @@
 
 \subsection{Overview}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
-
+For some types of explicit first-oder ODE’s there exist analytical solution methods:
 \textbf{Separable ODE's}\\
 \textbf{Linear ODE's}\\
 \textbf{Exact ODE's}\\
@@ -15,20 +15,20 @@ We compute the general solution of the ODE
 \begin{equation}
   y' = -\frac{x}{y}
 \end{equation}
-- We write the eqution as
+We write the eqution as
 \begin{equation}
   \frac{\textup{d}y}{\textup{d}x} = -\frac{x}{y}
 \end{equation}
--We bring all $x$-dependent terms to the left hand side and all $y$-dependent terms on
+We bring all $x$-dependent terms to the left hand side and all $y$-dependent terms on
 the right hand side:
 \begin{equation}
   y\:\textup{d}y = -x \:\textup{d}x
 \end{equation}
--We integrate on both sides and get
+We integrate on both sides and get
 \begin{equation}
   \int y\:\textup{d}y = - \int x\:\textup{d}x \Rightarrow \frac{1}{2}y^2 = - \frac{1}{2} x^2 + C, \;\;\; C \in \mathbb{R}
 \end{equation}
-- We solve for y and get
+We solve for y and get
 \begin{equation}
   y = \pm \sqrt{K - x^2}, \;\; K \in \mathbb{R}\;\; (\text{where } K = 2C)
 \end{equation}

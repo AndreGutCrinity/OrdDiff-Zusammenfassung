@@ -3,42 +3,41 @@
 \BOOKMARK [1][-]{section*.2}{Classification}{part.1}% 3
 \BOOKMARK [1][-]{section*.3}{Systems of differential equations}{part.1}% 4
 \BOOKMARK [1][-]{section*.4}{Slope field}{part.1}% 5
-\BOOKMARK [1][-]{section*.5}{Solvability}{part.1}% 6
-\BOOKMARK [0][-]{part.2}{II Ordinary Differential Equations}{}% 7
-\BOOKMARK [1][-]{section*.6}{Analytical methods for first-order ODE\220s}{part.2}% 8
-\BOOKMARK [2][-]{section*.7}{Overview}{section*.6}% 9
-\BOOKMARK [2][-]{section*.8}{Separable ODE\220s}{section*.6}% 10
-\BOOKMARK [2][-]{section*.9}{Exact ODE\220s}{section*.6}% 11
-\BOOKMARK [1][-]{section*.10}{Analytical methods for linear ODE\220s}{part.2}% 12
-\BOOKMARK [2][-]{section*.11}{Overview}{section*.10}% 13
-\BOOKMARK [2][-]{section*.12}{First-order linear ODE's}{section*.10}% 14
-\BOOKMARK [2][-]{section*.13}{Higher-order linear ODE's}{section*.10}% 15
-\BOOKMARK [1][-]{section*.14}{Numerical Methods}{part.2}% 16
-\BOOKMARK [2][-]{section*.15}{Single-setp methods}{section*.14}% 17
-\BOOKMARK [0][-]{part.3}{III System of Differential Equations}{}% 18
-\BOOKMARK [1][-]{section*.16}{Analytical methods for linear systems}{part.3}% 19
-\BOOKMARK [2][-]{section*.17}{Overview}{section*.16}% 20
-\BOOKMARK [2][-]{section*.18}{Homogeneous linear systems}{section*.16}% 21
-\BOOKMARK [2][-]{section*.19}{Inhomogeneous linear systems}{section*.16}% 22
-\BOOKMARK [0][-]{part.4}{IV Dynamical Systems}{}% 23
-\BOOKMARK [1][-]{section*.20}{Overview}{part.4}% 24
-\BOOKMARK [1][-]{section*.21}{One-Dimensional Systems}{part.4}% 25
-\BOOKMARK [2][-]{section*.22}{Fixed points in Continuous Dynamical Systems}{section*.21}% 26
-\BOOKMARK [2][-]{section*.24}{Continuous Linear stability analysis}{section*.21}% 27
-\BOOKMARK [2][-]{section*.25}{Fixed points in Discrete Dynamical Systems}{section*.21}% 28
-\BOOKMARK [2][-]{section*.26}{Discrete Linear stability analysis}{section*.21}% 29
-\BOOKMARK [2][-]{section*.27}{Bifurcations in Continous Systems}{section*.21}% 30
-\BOOKMARK [2][-]{section*.30}{Bifurcations in Discrete Systems}{section*.21}% 31
-\BOOKMARK [1][-]{section*.32}{Two-Dimensional Systems}{part.4}% 32
-\BOOKMARK [2][-]{section*.33}{Linear Systems}{section*.32}% 33
-\BOOKMARK [2][-]{section*.36}{Nonlinear Systems}{section*.32}% 34
-\BOOKMARK [2][-]{section*.37}{Limit cycles}{section*.32}% 35
-\BOOKMARK [2][-]{section*.38}{Bifurications}{section*.32}% 36
-\BOOKMARK [1][-]{section*.39}{Three-Dimensional Systems and Chaos}{part.4}% 37
-\BOOKMARK [2][-]{section*.40}{R\366ssler System}{section*.39}% 38
-\BOOKMARK [2][-]{section*.42}{Lorenz System}{section*.39}% 39
-\BOOKMARK [2][-]{section*.44}{Linz/Sprott System}{section*.39}% 40
-\BOOKMARK [1][-]{section*.46}{Discrete Dynamical Systems}{part.4}% 41
-\BOOKMARK [2][-]{section*.47}{Lyapunov exponent}{section*.46}% 42
-\BOOKMARK [2][-]{section*.48}{Mandelbrot set}{section*.46}% 43
-\BOOKMARK [2][-]{section*.49}{Mandelbrot set}{section*.46}% 44
+\BOOKMARK [0][-]{part.2}{II Ordinary Differential Equations}{}% 6
+\BOOKMARK [1][-]{section*.5}{Analytical methods for first-order ODE\220s}{part.2}% 7
+\BOOKMARK [2][-]{section*.6}{Overview}{section*.5}% 8
+\BOOKMARK [2][-]{section*.7}{Separable ODE\220s}{section*.5}% 9
+\BOOKMARK [2][-]{section*.8}{Exact ODE\220s}{section*.5}% 10
+\BOOKMARK [1][-]{section*.9}{Analytical methods for linear ODE\220s}{part.2}% 11
+\BOOKMARK [2][-]{section*.10}{Overview}{section*.9}% 12
+\BOOKMARK [2][-]{section*.11}{First-order linear ODE's}{section*.9}% 13
+\BOOKMARK [2][-]{section*.12}{Higher-order linear ODE's}{section*.9}% 14
+\BOOKMARK [1][-]{section*.13}{Numerical Methods}{part.2}% 15
+\BOOKMARK [2][-]{section*.14}{Single-setp methods}{section*.13}% 16
+\BOOKMARK [0][-]{part.3}{III System of Differential Equations}{}% 17
+\BOOKMARK [1][-]{section*.15}{Analytical methods for linear systems}{part.3}% 18
+\BOOKMARK [2][-]{section*.16}{Overview}{section*.15}% 19
+\BOOKMARK [2][-]{section*.17}{Homogeneous linear systems}{section*.15}% 20
+\BOOKMARK [2][-]{section*.18}{Inhomogeneous linear systems}{section*.15}% 21
+\BOOKMARK [0][-]{part.4}{IV Dynamical Systems}{}% 22
+\BOOKMARK [1][-]{section*.19}{Overview}{part.4}% 23
+\BOOKMARK [1][-]{section*.20}{One-Dimensional Systems}{part.4}% 24
+\BOOKMARK [2][-]{section*.21}{Fixed points in Continuous Dynamical Systems}{section*.20}% 25
+\BOOKMARK [2][-]{section*.23}{Continuous Linear stability analysis}{section*.20}% 26
+\BOOKMARK [2][-]{section*.24}{Fixed points in Discrete Dynamical Systems}{section*.20}% 27
+\BOOKMARK [2][-]{section*.25}{Discrete Linear stability analysis}{section*.20}% 28
+\BOOKMARK [2][-]{section*.26}{Bifurcations in Continous Systems}{section*.20}% 29
+\BOOKMARK [2][-]{section*.29}{Bifurcations in Discrete Systems}{section*.20}% 30
+\BOOKMARK [1][-]{section*.31}{Two-Dimensional Systems}{part.4}% 31
+\BOOKMARK [2][-]{section*.32}{Linear Systems}{section*.31}% 32
+\BOOKMARK [2][-]{section*.35}{Nonlinear Systems}{section*.31}% 33
+\BOOKMARK [2][-]{section*.36}{Limit cycles}{section*.31}% 34
+\BOOKMARK [2][-]{section*.37}{Bifurications}{section*.31}% 35
+\BOOKMARK [1][-]{section*.38}{Three-Dimensional Systems and Chaos}{part.4}% 36
+\BOOKMARK [2][-]{section*.39}{R\366ssler System}{section*.38}% 37
+\BOOKMARK [2][-]{section*.41}{Lorenz System}{section*.38}% 38
+\BOOKMARK [2][-]{section*.43}{Linz/Sprott System}{section*.38}% 39
+\BOOKMARK [1][-]{section*.45}{Discrete Dynamical Systems}{part.4}% 40
+\BOOKMARK [2][-]{section*.46}{Lyapunov exponent}{section*.45}% 41
+\BOOKMARK [2][-]{section*.47}{Mandelbrot set}{section*.45}% 42
+\BOOKMARK [2][-]{section*.48}{Mandelbrot set}{section*.45}% 43
