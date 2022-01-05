@@ -48,10 +48,10 @@ The general solution therefore is
     $g(x) = b_1x + b_0$ & $y_s = c_1x + c_0$\\
     $g(x) = b_2x^2 + b_1x + b_0$ & $y_s = c_2 x^2 + c_1x + c_0$\\
     $g(x) = \sum_{i = 0}^n b_i x^i$ & $y_s = \sum_{i = 0}^n c_i x^i$\\
-    $g(x) = A\;sin(\omega x) + B\;cos(\omega x)$ & $
+    $g(x) = A\;\textup{sin}(\omega x) + B\;\textup{cos}(\omega x)$ & $
     \begin{aligned}
-      y_s &= C_1sin(\omega x) + C_2 cos(\omega x)\\
-      y_s &= Csin(\omega x + \varphi)
+      y_s &= C_1\textup{sin}(\omega x) + C_2 \textup{cos}(\omega x)\\
+      y_s &= C\textup{sin}(\omega x + \varphi)
     \end{aligned}$\\
     $g(x) = Ae^{bx}$ & $y_s =
     \left\{\begin{matrix}
@@ -117,7 +117,8 @@ If the problem is an initial value problem; plug in values for x and y and solve
 
 \subsection{Higher-order linear ODE's}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
-The fact that the solution of an inhomogeneous ODE is the sum of the solution of the homogeneous ODE and the special solution (equation \ref{eq:2.50}) still holds true for higher-order linear ODE's
+The fact that the solution of an inhomogeneous ODE is the sum of the solution of the homogeneous ODE and the special solution (equation \ref{eq:2.50}) still holds true for higher-order linear ODE's.
+For solving such higher-oder linear ODE's we destinguish between the homogeneous and the inhomogeneous case\\
 
 \textbf{The homogeneous case}\\
 The function $y = e^{\lambda x}$ is a solution of the homogeneous ODE if and only if $\lambda$ is a root of the characteristic polynomial, i.e. if
@@ -126,12 +127,12 @@ The function $y = e^{\lambda x}$ is a solution of the homogeneous ODE if and onl
 \end{equation}
 We now have to distinguish between real and complex and between single and multiple roots of the characteristic polynomial.
 
-\textbf{Real Roots}
+\textbf{Real Roots:}
 If $\lambda$ is a real root of $P(\lambda)$ of multiplicity $m$, then the functions
 \begin{equation}
   y_1 =e^{\lambda x}, \;   y_2 =xe^{\lambda x} ,...,\;   y_m =x^{m-1}e^{\lambda x}
 \end{equation}
-are distinct linearly independent solutions. i.e. if $m = 1$ and $\lambda$ is a simple root then $y = C_1\; e^{\lambda x}$ is the solution.\\
+are distinct linearly independent solutions. i.e. if $m = 1$ and $\lambda$ is a simple root then $y = C_1\; e^{\lambda x}$ is a solution.\\
 Example: The homogeneous ODE
 \begin{equation}
   y^{(3)}- 3y'' - 4y' = 0
@@ -146,18 +147,18 @@ the ODE is
   y = C_1 + C_2 e^{4x} + C_3e^{-x}
 \end{equation}
 
-\textbf{Complex Roots}
+\textbf{Complex Roots:}
 If $\lambda = \alpha \pm j\beta$ are two complex roots of $P(\lambda)$ of multiplicity $m$ then
 \begin{table}[H]
   \begin{tabular}{ll}
-    $y_1 = e^{\alpha x} cos(\beta x)$ &   $y_2 = e^{\alpha x} sin(\beta x)$\\
-    $y_3 = xe^{\alpha x} cos(\beta x)$ &   $y_4 = xe^{\alpha x} sin(\beta x)$\\
+    $y_1 = e^{\alpha x} \textup{cos}(\beta x)$ &   $y_2 = e^{\alpha x} \textup{sin}(\beta x)$\\
+    $y_3 = xe^{\alpha x} \textup{cos}(\beta x)$ &   $y_4 = xe^{\alpha x} \textup{sin}(\beta x)$\\
     \vdots  & \vdots \\
-    $y_{2m-a} = x^{m-1}e^{\alpha x} cos(\beta x)$ &   $y_{2m} = x^{m-1}e^{\alpha x} sin(\beta x)$
+    $y_{2m-a} = x^{m-1}e^{\alpha x} \textup{cos}(\beta x)$ &   $y_{2m} = x^{m-1}e^{\alpha x} \textup{sin}(\beta x)$
   \end{tabular}
 \end{table}
 are m linearly independent solutions.\\
-If $m = 1$ and $\lambda_{1,2} = \alpha \pm \beta$ then $y_1 = C_1 e^{ax}cos(\beta x)$ and $y_2 = C_2 e^{ax}sin(\beta x)$ are two linearly
+If $m = 1$ and $\lambda_{1,2} = \alpha \pm j\beta$ then $y_1 = C_1 e^{ax}\textup{cos}(\beta x)$ and $y_2 = C_2 e^{ax}\textup{sin}(\beta x)$ are two linearly
 independent solutions.\\
 Example: The homogeneous ODE
 \begin{equation}
@@ -167,9 +168,9 @@ has the characteristic polynomial
 \begin{equation}
   P(\lambda) = \lambda^2 + 1.
 \end{equation}
-The roots of this polynomial are $\lambda_1 = j, \lambda_2 = -j$, hence the general solution of the ODE is
+The roots of this polynomial are $\lambda_{1,2} = \pm j\; (\alpha = 0, \beta = 1)$, hence the general solution of the ODE is
 \begin{equation}
-  y = C_1 cos(x) + C_2 sin(x)
+  y = C_1 \textup{cos}(x) + C_2 \textup{sin}(x)
 \end{equation}
 
 \textbf{The inhomogeneous case}\\
@@ -180,7 +181,7 @@ Example: Consider the inhomogeneous ODE
 \end{equation}
 The general solution of the homogeneous ODE is (The complex roots are $-1, -j, j)$
 \begin{equation}
-  y_h = C_1 e^{-x} + C_2cos(x) + C_3 sin(x)
+  y_h = C_1 e^{-x} + C_2\textup{cos}(x) + C_3 \textup{sin}(x)
 \end{equation}
 To find a special solution of the inhomogeneous ODE, we choose the ansatz
 \begin{equation}
@@ -205,5 +206,51 @@ The desired special solution hence is
 \end{equation}
 and the general solution therefore is
 \begin{equation}
-  y = C_1 e^{-x} + C_2cos(x) + C_3 sin(x) + 2x + 3
+  y = C_1 e^{-x} + C_2\textup{cos}(x) + C_3 \textup{sin}(x) + 2x + 3
 \end{equation}
+
+\textbf{Ansatz functions for the solution of the inhomogeneous higher order ODE}\\
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=\linewidth]{Pics/2.7.png}
+% \end{figure}
+% lecture notes page 50!\\
+\begin{table}[H]
+  \centering
+  \scriptsize
+  \begin{tabular}{l|l}
+  Source term $g(x)$    & Ansatz $y_p$\\ \hline
+  $g(x) = \sum_{i=0}^2 a_i x^i$ &
+  $\left \{\begin{matrix*}[l]
+    P_n(x)    & \text{if}\; b \neq 0\\
+    xP_n(x)   & \text{if}\; a \neq 0, b = 0\\
+    x^2P_n(x) & a=b=0
+  \end{matrix*}\right.$ \\ \hline
+  \multirow{6}{*}{$g(x) = Be^{cx}$} & $c$ is not a solution of $\lambda^2 + a\lambda + b = 0$\\
+                                    & $y_p = Ae^{cx}$    \\ \cline{2-2}
+                                    & $c$ is a simple solution of $\lambda^2 + a\lambda + b = 0$\\
+                                    & $y_p = Axe^{cx}$   \\ \cline{2-2}
+                                    & $c$ is a double solution of $\lambda^2 + a\lambda + b = 0$\\
+                                    & $y_p = Ax^2e^{cx}$ \\ \hline
+  \multirow{6}{*}{$g(x) = C_1 \text{sin}(\beta x) + C_2 \text{cos}(\beta x)$}
+                        & $i\beta$ is not a solution of $\lambda^2 + a\lambda + b = 0$\\
+                        & $y_p = A\;\text{sin}(\beta x) + B\;\text{cos}(\beta x)$ or \\
+                        & $y_p = Cx\;\text{sin}(\beta x + \varphi)$ \\ \cline{2-2}
+                        & $i\beta$ is a solution of $\lambda^2 + a\lambda + b = 0$\\
+                        & $y_p = x\left(A\;\text{sin}(\beta x) + B\;\text{cos}(\beta x)\right)$ or \\
+                        & $y_p = Cx\text{sin}(\beta x + \varphi)$
+  \end{tabular}
+\end{table}
+
+\textbf{Calculator-Example: Finding roots of Polynomial}\\
+The roots of a characteristic polynomial can be found with the calculater command \texttt{cPolyRoots()}.\\
+Example: We want to find the roots of the following ODE:
+\begin{equation}
+  y''+2y'+2y = 0
+\end{equation}
+The characteristic polynomial is
+\begin{equation}
+  P(\lambda) = \lambda^2 + 2\lambda + 2
+\end{equation}
+Using the command $\texttt{cPolyRoots(y}^2 \texttt{+2y+2, y)}$ returns a list with the roots of the characteristic polynomial
+$\texttt{\{-1-\textbf{i}, -1+\textbf{i}\}} $.
