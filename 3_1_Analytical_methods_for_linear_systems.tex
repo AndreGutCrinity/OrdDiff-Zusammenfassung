@@ -98,12 +98,12 @@ If $\lambda = \mu + j\nu$ is a simple complex eigenvalue of $A$ and $\mathbf{c} 
 we get two linearly independent real solutions by separating the complex solution into real and imaginary parts:
 \begin{equation}
   \begin{split}
-    \mathbf{z}_1(t) &= \textup{Re}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; cos(\nu t) - \mathbf{b} \; sin(\nu t))\\
-    \mathbf{z}_2(t) &= \textup{Im}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; sin(\nu t) + \mathbf{b} \; cos(\nu t))
+    \mathbf{z}_1(t) &= \textup{Re}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; \textup{cos}(\nu t) - \mathbf{b} \; \textup{sin}(\nu t))\\
+    \mathbf{z}_2(t) &= \textup{Im}(e^{\lambda t} \mathbf{c}) = e^{\mu t}(\mathbf{a} \; \textup{sin}(\nu t) + \mathbf{b} \; \textup{cos}(\nu t))
   \end{split}
 \end{equation}
 The complex conjugate of $\lambda$, namely $c = a - jb$ does not have to be considered because it would again lead to the same solutions.\\
-x is then z1 + z2 ???\\
+The solution of the linear system is then $x = z_1 + z_2$\\
 
 Example: We compute the general solution of a homogeneous system of ODE's where the matrix $A$ is
 \begin{equation}
@@ -113,7 +113,7 @@ Example: We compute the general solution of a homogeneous system of ODE's where 
     4 & -1
   \end{pmatrix}
 \end{equation}
-The eigenvalues of $A$ are $\lambda_{1, 2} = 1 \pm 2j$, with eigenvectors $\lambda_{1,2} = \begin{pmatrix}\color{red} 1 \pm j \\ \color{red}2 \color{black}\end{pmatrix}$.
+The eigenvalues of $A$ are $\lambda_{1, 2} = 1 \pm 2j$, with eigenvectors $\nu_{1,2} = \begin{pmatrix}\color{red} 1 \pm j \\ \color{red}2 \color{black}\end{pmatrix}$.
 \begin{equation}
   \mathbf{x} = C_1e^t \begin{pmatrix}
   \color{red}1\color{black}\textup{cos}(2t) - \color{red}1\color{black}\textup{sin}(2t)\\
