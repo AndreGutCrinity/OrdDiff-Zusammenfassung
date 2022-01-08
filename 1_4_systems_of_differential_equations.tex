@@ -28,7 +28,7 @@ An ODE of \emph{n}-th order is equivalent to a system of first-order ODE's.
 \textbf{Example: Higher-order ODE to system of first-order ODE's}\\
 We want to rewrite the ODE
 \begin{equation}
-  y^4 + \textup{sin}(y'') + e^{x^2 + y} = 0
+  y^4 + \textup{sin}(y'') \cdot e^{(x^2 + y)} = 0
 \end{equation}
 as a first order system. The solution is
 \begin{equation}
@@ -36,7 +36,7 @@ as a first order system. The solution is
     y_1' &= y_2\\
     y_2' &= y_3\\
     y_3' &= y_4 \\
-    y_4' &= y^4 + \textup{sin}(y'') + e^{x^2 + y} = 0
+    y_4' &= - \textup{sin}(y_3) \cdot e^{(x^2 + y_1)}
   \end{split}
 \end{equation}
 Where $y_1 = y,\; y_2 = y',\; y_3 = y'',\; y_4 = y'''$.\\
