@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1641629112 "main.tex" "main.pdf" "main" 1641629116
+["pdflatex"] 1641637305 "main.tex" "main.pdf" "main" 1641637309
   "1_1_fundamentals.tex" 1641194805 851 fb21d846d9170cb40f59ef32ea5c63d1 ""
   "1_3_classification.tex" 1641203124 3013 7d0cb6e525abbacaf26fddd4dfce085b ""
-  "1_4_systems_of_differential_equations.tex" 1641629110 3639 0749b746bc8c7f660d2ad1e938416e36 ""
+  "1_4_systems_of_differential_equations.tex" 1641632394 3671 69bc5f5044a82b34a1d01ba9d1774722 ""
   "1_5_slope_field.tex" 1641195605 945 11ed23bc3a2a33d00373178fe1fccd7d ""
   "2_1_analytical_methods.tex" 1641368836 2191 91d5a0d076b83749a89758aead948829 ""
-  "2_2_analytical_methods_for_linear.tex" 1641385722 11845 458857cb8035972d6b56e0005e7e1629 ""
+  "2_2_analytical_methods_for_linear.tex" 1641629431 11847 0cc6575f36b09c844742de5adc61143a ""
   "2_3_numerical_methods.tex" 1641394313 2319 49fd06c517e47add3d0070c3d43fc023 ""
-  "3_1_Analytical_methods_for_linear_systems.tex" 1641569062 12761 9567773cb6ed171fbc074a7ab2d1741e ""
+  "3_1_Analytical_methods_for_linear_systems.tex" 1641637302 13036 eabb3137a0ef419228cbacd42c0859e9 ""
   "4_1_overview.tex" 1636360132 1170 221b6fd22f5b5c0767add39a9bf858b1 ""
   "4_2_one-dimensional_systems.tex" 1636987924 7917 8e49c6fc135b0d1f74f17236558f92f7 ""
   "4_3_two-dimensional_systems.tex" 1638798748 10388 a0cb31c22fd9a34d74db519bf6bd13d2 ""
@@ -198,11 +198,11 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1600244289 2444767 bc6ebe522825b804048e65ebb71f0a13 ""
   "c:/texlive/2020/texmf.cnf" 1600244115 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "config.tex" 1641378067 3634 648db3933e799ea423a5858e939e4132 ""
-  "main.aux" 1641629115 5813 377a5ea6490104a2736d2c6a8dcf3c26 "pdflatex"
-  "main.out" 1641629115 3201 39c3cef5675bd1bcecbd71b4e587cce8 "pdflatex"
+  "main.aux" 1641637308 5813 a61b9c094434f8f7298954d5dddb5cd2 "pdflatex"
+  "main.out" 1641637308 3201 39c3cef5675bd1bcecbd71b4e587cce8 "pdflatex"
   "main.tex" 1641366722 1169 3ffa3b6255b86cb7cec0cc252d995798 ""
   (generated)
   "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
   "main.out"

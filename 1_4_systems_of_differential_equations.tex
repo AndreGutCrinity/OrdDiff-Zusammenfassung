@@ -36,11 +36,11 @@ as a first order system. The solution is
     y_1' &= y_2\\
     y_2' &= y_3\\
     y_3' &= y_4 \\
-    y_4' &= - \textup{sin}(y_3) \cdot e^{(x^2 + y_1)} = - \textup{sin}(y'') \cdot e^{(x^2 + y)}
+    y_4' &= - \textup{sin}(y'') \cdot e^{(x^2 + y)} = - \textup{sin}(y_3) \cdot e^{(x^2 + y_1)}
   \end{split}
 \end{equation}
 Where $y_1 = y,\; y_2 = y',\; y_3 = y'',\; y_4 = y'''$.\\
-To make this system autonomous we introduce $y_0 = x$ and add $y_0' = 1$ to the system above.\\
+To make this system autonomous we introduce $x = y_0$, plug it into the last equation and add $y_0' = 1$ to the system above.\\
 
 \textbf{Example: 2nd-order ODE to system of first-order ODE's}\\
 We want to rewrite the following 2$nd$ order ODE into a system of first-order ODE's.
