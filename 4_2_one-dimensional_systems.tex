@@ -138,7 +138,7 @@ The pitchfork bifurcation is a bifurcation in which a fixed point changes its st
   \end{tabular}
 \end{table}
 Supercritical: Additional fixed points only for parameter values greater (“super”) than the bifurcation point.\\
-Subcritical P-B: Additional fixed points only for parameter values smaller (“sub”) than the bifurcation point.\\
+Subcritical: Additional fixed points only for parameter values smaller (“sub”) than the bifurcation point.\\
 
 \textbf{Transcritical Bifurcation}\\
 A transcritical bifurcation is a bifurcation in which the stability of two fixed points is interchanged.
@@ -167,10 +167,10 @@ Fixed points $x^*$ are solutions of the equation $\mu + \varepsilon \; \textup{s
   x^*_{2, k} = (2k + 1)\pi + \textup{arcsin}\left(\frac{\mu}{\varepsilon}\right)
 \end{equation}
 The fixed points only exist in the case $\mu \leq \varepsilon$\\
-For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We have $f(x) = x + \mu + \varepsilon \textup{sin}(x)$, hence $f'(x) = 1 + \varepsilon \textup{cos}(x)$. It follows that for $\mu = 1$
+For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We have $f(x) = x + \mu + \varepsilon \; \textup{sin}(x)$, hence $f'(x) = 1 + \varepsilon \; \textup{cos}(x)$. It follows that for $\mu = 1$
 \begin{equation}
   \begin{split}
-    f'(x^*_{1, k}) =& 1 + \varepsilon \textup{cos}\left(-\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
+    f'(x^*_{1, k}) =& 1 + \varepsilon \; \textup{cos}\left(-\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
     =& 1 + \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
     =& 1 + \sqrt{\varepsilon^2 - 1} \geq 1
   \end{split}
@@ -178,8 +178,8 @@ For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We 
 Hence the fixed points $x^*_{1, k}$ are unstable.
 \begin{equation}
   \begin{split}
-    f'(x^*_{2, k}) =& 1 + \varepsilon \textup{cos}\left(\pi + \textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
-    =& 1 - \varepsilon \textup{cos}\left(\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
+    f'(x^*_{2, k}) =& 1 + \varepsilon \; \textup{cos}\left(\pi + \textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
+    =& 1 - \varepsilon \; \textup{cos}\left(\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
     =& 1 - \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
     =& 1 + \sqrt{\varepsilon^2 - 1}
   \end{split}
