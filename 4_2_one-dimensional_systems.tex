@@ -163,14 +163,14 @@ Example: Consider the discrete dynamical system depending on the parameters $\mu
 \end{equation}
 Fixed points $x^*$ are solutions of the equation $\mu + \varepsilon \; \textup{sin}(x) = 0$, hence
 \begin{equation}
-  x^*_{1, k} = -\textup{arcsin}\begin{pmatrix} \mu \\ \varepsilon \end{pmatrix} + k \cdot 2\pi, \;\;
-  x^*_{2, k} = (2k + 1)\pi + \textup{arcsin}\begin{pmatrix} \mu \\ \varepsilon \end{pmatrix}
+  x^*_{1, k} = -\textup{arcsin}\left(\frac{\mu}{\varepsilon}\right) + k \cdot 2\pi, \;\;
+  x^*_{2, k} = (2k + 1)\pi + \textup{arcsin}\left(\frac{\mu}{\varepsilon}\right)
 \end{equation}
 The fixed points only exist in the case $\mu \leq \varepsilon$\\
 For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We have $f(x) = x + \mu + \varepsilon \textup{sin}(x)$, hence $f'(x) = 1 + \varepsilon \textup{cos}(x)$. It follows that for $\mu = 1$
 \begin{equation}
   \begin{split}
-    f'(x^*_{1, k}) =& 1 + \varepsilon \textup{cos}\left(-\textup{arcsin}\binom{1}{\varepsilon}\right)\\
+    f'(x^*_{1, k}) =& 1 + \varepsilon \textup{cos}\left(-\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
     =& 1 + \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
     =& 1 + \sqrt{\varepsilon^2 - 1} \geq 1
   \end{split}
@@ -178,8 +178,8 @@ For $\mu = 1$, the fixed points only exist in the case $\varepsilon \geq 1$. We 
 Hence the fixed points $x^*_{1, k}$ are unstable.
 \begin{equation}
   \begin{split}
-    f'(x^*_{2, k}) =& 1 + \varepsilon \textup{cos}\left(\pi + \textup{arcsin}\binom{1}{\varepsilon}\right)\\
-    =& 1 - \varepsilon \textup{cos}\left(\textup{arcsin}\binom{1}{\varepsilon}\right)\\
+    f'(x^*_{2, k}) =& 1 + \varepsilon \textup{cos}\left(\pi + \textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
+    =& 1 - \varepsilon \textup{cos}\left(\textup{arcsin}\left(\frac{1}{\varepsilon}\right)\right)\\
     =& 1 - \varepsilon \sqrt{1 - \frac{1}{\varepsilon^2}}\\
     =& 1 + \sqrt{\varepsilon^2 - 1}
   \end{split}
