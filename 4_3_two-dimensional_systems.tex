@@ -161,7 +161,7 @@ If both eigenvalues $\lambda_1, \lambda_2$ of the corresponding system matrix $A
 \subsection{Conserved Quantity}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
 Let $\dot{\textbf{x}} = \textbf{f}(\textbf{x})$ be an autonomous dynamical system.\\
-A \emph{conserved quantity} (or integral) of the system is a continuous nonconstant function $E$, which is constant on solutions of the system above , i.e. if $t \mapsto x(t)$ is a solution of the system, then we have
+A \emph{conserved quantity} (or integral) of the system is a continuous nonconstant function $E$, which is constant on solutions of the system above, i.e. if $t \mapsto x(t)$ is a solution of the system, then we have
 \begin{equation}
   \frac{\mathrm{d} }{\mathrm{d} t} E(\textbf{x}(t)) = 0
 \end{equation}
@@ -170,6 +170,23 @@ The system above is \emph{conservative}, if there is a conserved quantity in the
 It is in general difficult to decide, whether there is a conserved quantity in a given system.
 However, if there is a fixed point in the system which is of another type than saddle point or center, the system cannot be conservative.\\
 
+\textbf{Example: Checking if quantity is conserved}\\
+We consider the dynamical system
+\begin{equation}
+  \begin{split}
+    \dot{x} &= \textup{sin}(y)\\
+    \dot{y} &= \textup{sin}(x)
+  \end{split}
+\end{equation}
+We want to check that $E(x, y) = \textup{cos}(x) - \textup{cos}(y)$ is a conserved quantity of the system.
+\begin{equation}
+  \begin{split}
+    \frac{\mathrm{d} E}{\mathrm{d} t} &= \frac{\partial E}{\partial x} \cdot \dot{x} + \frac{\partial E}{\partial y} \cdot \dot{y}\\
+    &= -\textup{sin}(x) \cdot \textup{sin}(y) + \textup{sin}(y) \cdot \textup{sin}(x)\\
+    &= 0
+  \end{split}
+\end{equation}
+We conclude that the quantity is conserved.
 
 \subsection{Limit cycles}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
