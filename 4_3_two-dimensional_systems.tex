@@ -170,7 +170,7 @@ The system above is \emph{conservative}, if there is a conserved quantity in the
 It is in general difficult to decide, whether there is a conserved quantity in a given system.
 However, if there is a fixed point in the system which is of another type than saddle point or center, the system cannot be conservative.\\
 
-\textbf{Example: Checking if quantity is conserved}\\
+\textbf{Example: Checking if a quantity is conserved}\\
 We consider the dynamical system
 \begin{equation}
   \begin{split}
@@ -186,7 +186,22 @@ We want to check that $E(x, y) = \textup{cos}(x) - \textup{cos}(y)$ is a conserv
     &= 0
   \end{split}
 \end{equation}
-We conclude that the quantity is conserved.
+We conclude that the quantity is conserved.\\
+
+\textbf{Example: Find conserved quantity}\\
+We consider the dynamical system $\ddot{x} = x^3 - x$
+\begin{equation}
+  \begin{split}
+    \dot{x} &= y\\
+    \dot{y} &= x^3 - x
+  \end{split}
+\end{equation}
+In order to find a conserved quantity, we write the system in the form $\ddot{x} + V'(x) = 0$.
+This is true for $V(x) = -\frac{1}{4}x^4 + \frac{1}{2}x^2$ ($V(x)$ is the integral of the negative right side of the initial quation), and a conserved quantity is the total energy
+\begin{equation}
+  E(x, y) = \frac{1}{2}y^2 + V(x) = \frac{1}{2}y^2 + \frac{1}{2}x^2 - \frac{1}{4}x^4
+\end{equation}
+(Control: $\frac{\mathrm{d}}{\mathrm{d} t}E(x, y) = \frac{\partial E}{\partial x} \dot{x} + \frac{\partial E}{\partial y} \dot{y} = \dots = 0$)
 
 \subsection{Limit cycles}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
