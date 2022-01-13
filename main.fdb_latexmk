@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1641984957 "main.tex" "main.pdf" "main" 1641984962
+["pdflatex"] 1642072679 "main.tex" "main.pdf" "main" 1642072684
   "1_1_fundamentals.tex" 1641194805 851 fb21d846d9170cb40f59ef32ea5c63d1 ""
   "1_3_classification.tex" 1641203124 3013 7d0cb6e525abbacaf26fddd4dfce085b ""
   "1_4_systems_of_differential_equations.tex" 1641976111 3671 69bc5f5044a82b34a1d01ba9d1774722 ""
@@ -10,14 +10,14 @@
   "3_1_Analytical_methods_for_linear_systems.tex" 1641897800 13183 2c2d28d62430db82b4048d091223e5fa ""
   "4_1_overview.tex" 1636360132 1170 221b6fd22f5b5c0767add39a9bf858b1 ""
   "4_2_one-dimensional_systems.tex" 1641984950 7946 9b43948ab4606696de306a74357447f4 ""
-  "4_3_two-dimensional_systems.tex" 1638798748 10388 a0cb31c22fd9a34d74db519bf6bd13d2 ""
+  "4_3_two-dimensional_systems.tex" 1642072675 11215 022ac3b5f5c947f604f25c507a16ff76 ""
   "4_4_three-dimensional_systems_and_chaos.tex" 1639387745 4588 baa5fb2705de45b50524e4cfb8461789 ""
   "4_5_discrete_dynamical_systems.tex" 1639996967 1677 f5225834b9c5d29114c5cd1dbcbb96f7 ""
   "Pics/1.5.1.jpg" 1635786861 27581 17cf8d6c39da95dc7ffc4a1a9162a472 ""
   "Pics/1.5.2.jpg" 1635787179 22363 89d949cd463bc050fdf9ba5d1a967afb ""
   "Pics/4.16.png" 1638174003 226490 3dcd1a89586df4f1ec81eecc08fdfd27 ""
   "Pics/4.18.png" 1637569861 82989 269852e62e98b2e5189a5f1163c2cc97 ""
-  "Pics/4.19.png" 1637571698 443294 f615b2adcca6c179da63e7029a926ca3 ""
+  "Pics/4.19.2.png" 1642070137 520837 954a1ac701dd7c1573e699c7a4f72512 ""
   "Pics/4.2.png" 1636363493 308040 ecbe8f601c76c9a1663ea2f006f354ef ""
   "Pics/4.34.png" 1638174101 490511 4057d3d585fab47ae72d6248b532cacc ""
   "Pics/4.47.png" 1639384583 384843 20b7c5b8921b7d7babb70a4307307d12 ""
@@ -196,11 +196,11 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1600244289 2444767 bc6ebe522825b804048e65ebb71f0a13 ""
   "c:/texlive/2020/texmf.cnf" 1600244115 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "config.tex" 1641378067 3634 648db3933e799ea423a5858e939e4132 ""
-  "main.aux" 1641984961 5813 8a166d176d55cf4c549c506c7317946e "pdflatex"
-  "main.out" 1641984961 3201 2af1e422f0a4256decd65bffb44ec12e "pdflatex"
+  "main.aux" 1642072683 5919 367c147c6fbd9556f9b5d83e5042fd88 "pdflatex"
+  "main.out" 1642072683 3268 ade56f4e53b24bc795367161c05031cc "pdflatex"
   "main.tex" 1641898805 1166 9342bbb21455c02603230329caf61cd8 ""
   (generated)
+  "main.pdf"
   "main.log"
   "main.aux"
-  "main.pdf"
   "main.out"

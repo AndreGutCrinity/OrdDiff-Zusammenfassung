@@ -66,7 +66,7 @@ A two-dimensional system can be characterized with the eigenvalues like so:
 Alternativ characterization instead of with the eigenvalues $\lambda_1, \lambda_2$ with trace and determinant of A:
 \begin{equation}
   \begin{split}
-    \tau &= \textup{tr} = a_{11} + a_{22}\\
+    \tau &= \textup{tr}(A) = a_{11} + a_{22}\\
     \Delta &= \textup{det}(A) = a_{11}a_{22} - a_{12}a_{21}
   \end{split}
 \end{equation}
@@ -82,7 +82,7 @@ and
 In the following figure the classification of fixed points based on the properties of $\tau$ and $\Delta$ is shown graphically.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=.7\linewidth]{Pics/4.19.png}
+  \includegraphics[width=.7\linewidth]{Pics/4.19.2.png}
 \end{figure}
 
 If one is only interested in the stability of $\textbf{x}^*$ (and not in a further classification into nodes,
@@ -157,6 +157,19 @@ If both eigenvalues $\lambda_1, \lambda_2$ of the corresponding system matrix $A
 \textbf{Classification of fixed points into robust and marginal cases}\\
 \emph{Robust}: Nodes, spirals, saddle points\\
 \emph{Marginal}: centers/elliptic fixed points, degenerate cases
+
+\subsection{Conserved Quantity}
+\noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
+Let $\dot{\textbf{x}} = \textbf{f}(\textbf{x})$ be an autonomous dynamical system.\\
+A \emph{conserved quantity} (or integral) of the system is a continuous nonconstant function $E$, which is constant on solutions of the system above , i.e. if $t \mapsto x(t)$ is a solution of the system, then we have
+\begin{equation}
+  \frac{\mathrm{d} }{\mathrm{d} t} E(\textbf{x}(t)) = 0
+\end{equation}
+The system above is \emph{conservative}, if there is a conserved quantity in the system.\\
+
+It is in general difficult to decide, whether there is a conserved quantity in a given system.
+However, if there is a fixed point in the system which is of another type than saddle point or center, the system cannot be conservative.\\
+
 
 \subsection{Limit cycles}
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
