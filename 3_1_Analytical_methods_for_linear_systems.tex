@@ -113,16 +113,19 @@ Example: We compute the general solution of a homogeneous system of ODE's where 
     4 & -1
   \end{pmatrix}
 \end{equation}
-The eigenvalues of $A$ are $\lambda_{1, 2} = \color{cyan}1\color{black} \pm \color{violet}2\color{black}j$, with eigenvectors $\nu_{1,2} = \begin{pmatrix}\color{red} 1 \pm j \\ \color{red}2\color{black}\end{pmatrix}$.
+The eigenvalues of $A$ are $\lambda_{1, 2} = \color{cyan}1\color{black} \pm \color{violet}2\color{black}j$, with eigenvectors
+$\nu_{1,2} = \begin{pmatrix}
+\color{red} 1 \color{black} \pm \color{green} j \\
+\color{red} 2 \color{black} \pm \color{lightgray} 0 \color{black}\end{pmatrix}$.
 \begin{equation}
   \mathbf{x} = C_1e^{\color{cyan}1\color{black}t} \begin{pmatrix}
   \color{red}1\color{black}\textup{cos}(\color{violet}2\color{black}t) -
-  \color{red}1\color{black}\textup{sin}(\color{violet}2\color{black}t)\\
+  \color{green}1\color{black}\textup{sin}(\color{violet}2\color{black}t)\\
   \color{red}2\color{black}\textup{cos}(\color{violet}2\color{black}t) -
   \color{lightgray}0\textup{sin}(2t)\color{black} \end{pmatrix} +
   C_2 e^{\color{cyan}1\color{black}t} \begin{pmatrix}
   \color{red}1\color{black}\textup{sin}(\color{violet}2\color{black}t) +
-  \color{red}1\color{black}\textup{cos}(\color{violet}2\color{black}t)\\
+  \color{green}1\color{black}\textup{cos}(\color{violet}2\color{black}t)\\
   \color{red}2\color{black}\textup{sin}(\color{violet}2\color{black}t) +
   \color{lightgray}0\textup{cos}(2t)\color{black}\end{pmatrix}
 \end{equation}

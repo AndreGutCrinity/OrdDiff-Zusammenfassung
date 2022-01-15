@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  13 JAN 2022 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  15 JAN 2022 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,17 +828,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--107
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 [4 <./Pics/runge.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
 
@@ -865,43 +865,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 <Pics/9.1.png, id=353, 388.45125pt x 268.00125pt>
 File: Pics/9.1.png Graphic file (type png)
 <use Pics/9.1.png>
-Package pdftex.def Info: Pics/9.1.png  used on input line 127.
+Package pdftex.def Info: Pics/9.1.png  used on input line 128.
 (pdftex.def)             Requested size: 132.65059pt x 91.51996pt.
 <Pics/9.2.png, id=354, 433.62pt x 278.2395pt>
 File: Pics/9.2.png Graphic file (type png)
 <use Pics/9.2.png>
-Package pdftex.def Info: Pics/9.2.png  used on input line 136.
+Package pdftex.def Info: Pics/9.2.png  used on input line 137.
 (pdftex.def)             Requested size: 128.40163pt x 82.38986pt.
 <Pics/9.3.png, id=355, 473.3685pt x 295.70474pt>
 File: Pics/9.3.png Graphic file (type png)
 <use Pics/9.3.png>
-Package pdftex.def Info: Pics/9.3.png  used on input line 136.
+Package pdftex.def Info: Pics/9.3.png  used on input line 137.
 (pdftex.def)             Requested size: 128.40163pt x 80.21133pt.
 
-Overfull \hbox (3.99895pt too wide) in paragraph at lines 135--139
+Overfull \hbox (3.99895pt too wide) in paragraph at lines 136--140
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--139
+Underfull \hbox (badness 10000) in paragraph at lines 131--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 <Pics/9.4.png, id=356, 375.20175pt x 242.1045pt>
 File: Pics/9.4.png Graphic file (type png)
 <use Pics/9.4.png>
-Package pdftex.def Info: Pics/9.4.png  used on input line 147.
+Package pdftex.def Info: Pics/9.4.png  used on input line 148.
 (pdftex.def)             Requested size: 132.65059pt x 85.5949pt.
 [6 <./Pics/4.2.png> <./Pics/9.1.png>]
 <Pics/9.5.png, id=381, 720.291pt x 462.528pt>
 File: Pics/9.5.png Graphic file (type png)
 <use Pics/9.5.png>
-Package pdftex.def Info: Pics/9.5.png  used on input line 157.
+Package pdftex.def Info: Pics/9.5.png  used on input line 158.
 (pdftex.def)             Requested size: 238.76944pt x 153.31929pt.
 ) (./4_3_two-dimensional_systems.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
@@ -1111,7 +1111,7 @@ Here is how much of TeX's memory you used:
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-su
 per/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on main.pdf (10 pages, 3781219 bytes).
+Output written on main.pdf (10 pages, 3781907 bytes).
 PDF statistics:
  612 PDF objects out of 1000 (max. 8388607)
  534 compressed objects within 6 object streams
