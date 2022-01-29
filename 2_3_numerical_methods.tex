@@ -11,7 +11,8 @@
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
 \begin{equation}
   \begin{split}
-    x_{k+1} = x_k + h \cdot f(t_{k+1}, x_{k+1})
+    \dot{x} &= f(t, x)\\
+    x_{k+1} &= x_k + h \cdot f(t_k, x_k)
   \end{split}
 \end{equation}
 
@@ -19,8 +20,7 @@
 \noindent\rule[\linienAbstand]{\linewidth}{\linienDicke}
 \begin{equation}
   \begin{split}
-    \dot{x} &= f(t, x)\\
-    x_{k+1} &= x_k + h \cdot f(t_k, x_k)
+    x_{k+1} = x_k + h \cdot f(t_{k+1}, x_{k+1})
   \end{split}
 \end{equation}
 
